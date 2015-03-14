@@ -51,17 +51,17 @@ public class DBWriterFacade<T> {
 	
 	/**
 	 * Save to the database
-	 * @throws JAXBException, IOException 
+	 * @throws JAXBException, IOException, SAXException
 	 * @throws Exception exception probably thrown by {@code RESTUtil.class}
 	 */
-	public void save() throws JAXBException, IOException, Exception {
+	public void save() throws JAXBException, IOException, SAXException, Exception {
 		System.out.println("=== PUT: create a new database ===");
 
 		try {
 			RESTUtil.createSchema(schemaName);
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			System.err.println("Creating of schema unsucsessful.");
+			System.err.println("Creating of schema unsucsessful. Trying without creating a schema.");
+			System.out.println("DBWriterFacade.save()");
 		}
 		
 		/* URL konekcije ka konkretnom resursu - semi baze */
@@ -83,13 +83,7 @@ public class DBWriterFacade<T> {
 		
 		/* Slanje podataka kroz stream */
 		System.out.println("\n* Send document...");
-		try {
-			gxm.marshall();
-		} catch (SAXException e1) {
-			// TODO Auto-generated catch block
-			e1.printStackTrace();
-		}
-		out.close();
+		gxm.marshall();
 		
 		/* Response kod vracen od strane servera */
 		RESTUtil.printResponse(conn);
