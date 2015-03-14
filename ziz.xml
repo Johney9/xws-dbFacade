@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ziz:zahtev_za_izvod xmlns:ziz="http://www.ftn.uns.ac.rs/xws/cbs/zahtev_za_izvod">
+    <ziz:broj_racuna>123456789123456789</ziz:broj_racuna>
+    <ziz:datum>2015-03-14+01:00</ziz:datum>
+    <ziz:redni_broj_preseka>1</ziz:redni_broj_preseka>
+</ziz:zahtev_za_izvod>
