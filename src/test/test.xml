@@ -1,0 +1,5 @@
+<fkt:faktura xmlns:fkt="http://www.ftn.uns.ac.rs/xws/cbs/faktura">
+	<fkt:zaglavlje>
+		<fkt:id_poruke>123456789123456789</fkt:id_poruke>
+	</fkt:zaglavlje>
+</fkt:faktura>

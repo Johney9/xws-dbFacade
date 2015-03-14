@@ -5,7 +5,10 @@ import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
-import util.RestUrl;
+import javax.xml.bind.JAXBException;
+
+import org.xml.sax.SAXException;
+
 import util.converter.GenericXWSMarshaller;
 
 import com.xmldb.rest.RESTUtil;
@@ -23,24 +26,48 @@ public class DBWriterFacade<T> {
 	private GenericXWSMarshaller<T> gxm;
 	
 	/**
-	 * Constructor
-	 * @param marshalee object being marshalled
-	 * @param schemaName the database schema's nema
+	 * Default constructor, use this one
+	 * @param marshalee object being saved to the database
+	 */
+	public DBWriterFacade(T marshalee) {
+		this.marshalee=marshalee;
+		this.schemaName=generateId();
+	}
+	
+	/**
+	 * Constructor used for testing
+	 * @param marshalee object being saved to the database
+	 * @param schemaName the database schema's name
 	 */
 	public DBWriterFacade(T marshalee, String schemaName) {
 		this.schemaName=schemaName;
 		this.marshalee=marshalee;
 	}
 	
+	private String generateId() {
+		IdGeneratorFacade igf = new IdGeneratorFacade(marshalee);
+		return igf.generateIdXws();
+	}
+	
 	/**
 	 * Save to the database
-	 * @throws IOException
+	 * @throws JAXBException, IOException 
+	 * @throws Exception exception probably thrown by {@code RESTUtil.class}
 	 */
-	public void save() throws IOException {
+	public void save() throws JAXBException, IOException, Exception {
 		System.out.println("=== PUT: create a new database ===");
 
+		try {
+			RESTUtil.createSchema(schemaName);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			System.err.println("Creating of schema unsucsessful.");
+		}
+		
 		/* URL konekcije ka konkretnom resursu - semi baze */
-		URL url = new URL(RestUrl.REST_URL + schemaName);
+		String fullPackageName = marshalee.getClass().getPackage().getName();
+		String resourceId = fullPackageName.substring(fullPackageName.lastIndexOf(".")+1);
+		URL url = new URL(RESTUtil.REST_URL + schemaName + "/" + resourceId +".xml");
 		System.out.println("\n* URL: " + url);
 
 		/* Uspostavljanje konekcije */
@@ -56,22 +83,21 @@ public class DBWriterFacade<T> {
 		
 		/* Slanje podataka kroz stream */
 		System.out.println("\n* Send document...");
-		gxm.marshall();
+		try {
+			gxm.marshall();
+		} catch (SAXException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
 		out.close();
-		//IOUtils.closeQuietly(out);
 		
 		/* Response kod vracen od strane servera */
-		try {
-			RESTUtil.printResponse(conn);
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		RESTUtil.printResponse(conn);
 
 		/* Obavezno zatvaranje tekuce konekcije */
 		conn.disconnect();
 	}
-
+	
 	public String getSchemaName() {
 		return schemaName;
 	}
