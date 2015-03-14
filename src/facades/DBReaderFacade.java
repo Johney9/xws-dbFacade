@@ -22,17 +22,34 @@ public class DBReaderFacade<T> {
 	protected String schemaName;
 	
 	/**
-	 * Constructor
+	 * Default constructor, use this one.
 	 * @param type class type
-	 * @param fileName typed in XPath format { "(//XmlRootElement/XmlLeafElement)"+"attribute() = value" }
-	 * @param schemaName the database schema's name
+	 * @param schemaName the database schema's name, lowercase
+	 */
+	DBReaderFacade(T type, String schemaName) {
+		this.type=type;
+		this.schemaName=schemaName.toLowerCase().trim();
+		generateFileName();
+	}
+	
+	/**
+	 * Constructor used for testing
+	 * @param type class type
+	 * @param fileName without extension, lowercase
+	 * @param schemaName the database schema's name, lowercase
 	 */
 	public DBReaderFacade(T type, String fileName, String schemaName) {
-		this.fileName = fileName;
+		this.fileName = fileName.toLowerCase().trim();
 		this.type = type;
-		this.schemaName = schemaName;
+		this.schemaName = schemaName.toLowerCase().trim();
 	}
 
+	
+	private void generateFileName() {
+		String fullPackageName = type.getClass().getPackage().getName();
+		this.fileName = fullPackageName.substring(fullPackageName.lastIndexOf(".")+1);
+	}
+	
 	/**
 	 * Read from the database
 	 * @return read object, of type {@code T}
@@ -71,7 +88,12 @@ public class DBReaderFacade<T> {
 		return type;
 	}
 
+	/**
+	 * Sets a new type, also generates a new {@code fileName} based on the type
+	 * @param type
+	 */
 	public void setType(T type) {
 		this.type = type;
+		generateFileName();
 	}
 }
