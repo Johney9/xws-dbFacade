@@ -16,7 +16,7 @@ public class IdGeneratorFacade {
 	 * Gets the default id used in the XWS project models
 	 */
 	public String generateIdXws() {
-		NestedFieldGetter nfg = new NestedFieldGetter(target);
+		NestedFieldGetter nfg = new NestedFieldGetter();
 		String retVal="";
 		try {
 			retVal = (String) nfg.findField(target, defaultIdKey, defaultBrojRacunaKey);
