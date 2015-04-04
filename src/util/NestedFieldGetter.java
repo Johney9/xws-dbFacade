@@ -4,21 +4,18 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
 /**
- * Utility class used for finding a nested field, and returning it's value using the fields getter method.
+ * Utility class used for finding a nested field, and returning its value using the fields getter method.
+ * Using depth first
  * @author Nikola Mihalek
- *
- * @param <T> class type
  */
 public class NestedFieldGetter {
 	
-	protected Object target;
 	protected Object retVal;
 	
 	/**
 	 * Constructor
-	 * @param target object that will have its key extracted
 	 */
-	public NestedFieldGetter(Object target) {
+	public NestedFieldGetter() {
 		retVal=null;
 	}
 	
@@ -34,6 +31,7 @@ public class NestedFieldGetter {
 	public Object findField(Object target, String...methodNames) {
 		
 		for(String name : methodNames) {
+			
 			try {
 				try {
 					Method m = target.getClass().getDeclaredMethod(name);
@@ -68,13 +66,5 @@ public class NestedFieldGetter {
 		
 		return retVal;
 		
-	}
-
-	public Object getTarget() {
-		return target;
-	}
-
-	public void setTarget(Object target) {
-		this.target = target;
 	}
 }
