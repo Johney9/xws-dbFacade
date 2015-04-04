@@ -1,6 +1,6 @@
 package test;
 
-import java.math.BigDecimal;
+import java.math.BigInteger;
 
 import javax.xml.datatype.DatatypeConfigurationException;
 import javax.xml.datatype.DatatypeFactory;
@@ -38,19 +38,19 @@ public class DBWriterFacadeTest {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		ziz.setRedniBrojPreseka(new BigDecimal(1));
+		ziz.setRedniBrojPreseka(new BigInteger("1"));
 		
 		DBWriterFacade<ZahtevZaIzvod> dbwf = new DBWriterFacade<ZahtevZaIzvod>(ziz, schemaName);
 		//DBReaderFacade<ZahtevZaIzvod> dbr = new DBReaderFacade<ZahtevZaIzvod>(new ZahtevZaIzvod(), "(//zahtev_za_izvod/text())", schemaName);
 		try {
 			dbwf.save();
-			ziz.setRedniBrojPreseka(new BigDecimal(2));
+			ziz.setRedniBrojPreseka(new BigInteger("1"));
 			dbwf.save();
-			ziz.setRedniBrojPreseka(new BigDecimal(3));
+			ziz.setRedniBrojPreseka(new BigInteger("2"));
 			dbwf.save();
-			ziz.setRedniBrojPreseka(new BigDecimal(4));
+			ziz.setRedniBrojPreseka(new BigInteger("3"));
 			dbwf.save();
-			ziz.setRedniBrojPreseka(new BigDecimal(5));
+			ziz.setRedniBrojPreseka(new BigInteger("4"));
 			dbwf.save();
 			//ZahtevZaIzvod zzz= dbr.read();
 			//System.out.println(zzz);
