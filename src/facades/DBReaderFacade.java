@@ -26,7 +26,7 @@ public class DBReaderFacade<T> {
 	 * @param type class type
 	 * @param schemaName the database schema's name, lowercase
 	 */
-	DBReaderFacade(T type, String schemaName) {
+	public DBReaderFacade(T type, String schemaName) {
 		this.type=type;
 		this.schemaName=schemaName.toLowerCase().trim();
 		generateFileName();

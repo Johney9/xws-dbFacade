@@ -5,7 +5,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
-import java.math.BigDecimal;
+import java.math.BigInteger;
 import java.util.GregorianCalendar;
 
 import javax.xml.bind.JAXBException;
@@ -42,7 +42,7 @@ public class DBReaderFacadeTest {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		ziz.setRedniBrojPreseka(new BigDecimal(1));
+		ziz.setRedniBrojPreseka(new BigInteger("1"));
 	}
 
 	@After
