@@ -10,7 +10,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import rs.ac.uns.ftn.xws.cbs.zahtev_za_izvod.ZahtevZaIzvod;
-import facades.DBWriterFacade;
+import facades.DatabaseWriter;
 
 public class DBWriterFacadeTest {
 
@@ -40,18 +40,18 @@ public class DBWriterFacadeTest {
 		}
 		ziz.setRedniBrojPreseka(new BigInteger("1"));
 		
-		DBWriterFacade<ZahtevZaIzvod> dbwf = new DBWriterFacade<ZahtevZaIzvod>(ziz, schemaName);
+		DatabaseWriter<ZahtevZaIzvod> dbwf = new DatabaseWriter<ZahtevZaIzvod>(ziz, schemaName);
 		//DBReaderFacade<ZahtevZaIzvod> dbr = new DBReaderFacade<ZahtevZaIzvod>(new ZahtevZaIzvod(), "(//zahtev_za_izvod/text())", schemaName);
 		try {
-			dbwf.save();
+			dbwf.store();
 			ziz.setRedniBrojPreseka(new BigInteger("1"));
-			dbwf.save();
+			dbwf.store();
 			ziz.setRedniBrojPreseka(new BigInteger("2"));
-			dbwf.save();
+			dbwf.store();
 			ziz.setRedniBrojPreseka(new BigInteger("3"));
-			dbwf.save();
+			dbwf.store();
 			ziz.setRedniBrojPreseka(new BigInteger("4"));
-			dbwf.save();
+			dbwf.store();
 			//ZahtevZaIzvod zzz= dbr.read();
 			//System.out.println(zzz);
 		} catch (Exception e) {

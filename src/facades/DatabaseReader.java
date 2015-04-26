@@ -15,7 +15,7 @@ import com.xmldb.rest.RESTUtil;
  *
  * @param <T> class that is being unmarshalled
  */
-public class DBReaderFacade<T> {
+public class DatabaseReader<T> {
 	
 	protected String fileName;
 	protected T type;
@@ -26,7 +26,7 @@ public class DBReaderFacade<T> {
 	 * @param type class type
 	 * @param schemaName the database schema's name, lowercase
 	 */
-	public DBReaderFacade(T type, String schemaName) {
+	public DatabaseReader(T type, String schemaName) {
 		this.type=type;
 		this.schemaName=schemaName.toLowerCase().trim();
 		generateFileName();
@@ -38,7 +38,7 @@ public class DBReaderFacade<T> {
 	 * @param fileName without extension, lowercase
 	 * @param schemaName the database schema's name, lowercase
 	 */
-	public DBReaderFacade(T type, String fileName, String schemaName) {
+	public DatabaseReader(T type, String fileName, String schemaName) {
 		this.fileName = fileName.toLowerCase().trim();
 		this.type = type;
 		this.schemaName = schemaName.toLowerCase().trim();

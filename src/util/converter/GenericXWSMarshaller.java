@@ -24,7 +24,7 @@ public class GenericXWSMarshaller<T> {
 	protected JAXBContext context;
 	protected T marshallee;
 	protected OutputStream out;
-	protected final String MODEL_PATH="xws-model/xml/xsd/";
+	protected final String MODEL_PATH="xws-model/xml/";
 	protected String fileName;
 	
 	/**

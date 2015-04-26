@@ -19,7 +19,7 @@ import com.xmldb.rest.misc.RequestMethod;
  * @author Nikola
  * @param <T> class that is being marshalled
  */
-public class DBWriterFacade<T> {
+public class DatabaseWriter<T> {
 	
 	protected String schemaName;
 	protected T marshalee;
@@ -29,7 +29,7 @@ public class DBWriterFacade<T> {
 	 * Default constructor, use this one
 	 * @param marshalee object being saved to the database
 	 */
-	public DBWriterFacade(T marshalee) {
+	public DatabaseWriter(T marshalee) {
 		this.marshalee=marshalee;
 		this.schemaName=generateId();
 	}
@@ -39,7 +39,7 @@ public class DBWriterFacade<T> {
 	 * @param marshalee object being saved to the database
 	 * @param schemaName the database schema's name
 	 */
-	public DBWriterFacade(T marshalee, String schemaName) {
+	public DatabaseWriter(T marshalee, String schemaName) {
 		this.schemaName=schemaName;
 		this.marshalee=marshalee;
 	}
@@ -54,7 +54,7 @@ public class DBWriterFacade<T> {
 	 * @throws JAXBException, IOException, SAXException
 	 * @throws Exception exception probably thrown by {@code RESTUtil.class}
 	 */
-	public void save() throws JAXBException, IOException, SAXException, Exception {
+	public void store() throws JAXBException, IOException, SAXException, Exception {
 		System.out.println("=== PUT: create a new database ===");
 
 		try {

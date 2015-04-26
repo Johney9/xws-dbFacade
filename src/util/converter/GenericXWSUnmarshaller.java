@@ -22,7 +22,7 @@ import org.xml.sax.SAXException;
 public class GenericXWSUnmarshaller<T> {
 	
 	protected JAXBContext context=null;
-	protected final String MODEL_PATH="xws-model/xml/xsd/";
+	protected final String MODEL_PATH="xws-model/xml/";
 	protected String namespace;
 	protected String fileName;
 	protected InputStream in;
