@@ -47,7 +47,7 @@ public class TestDBWriter {
 	public void testSave2() {
 		Mt103 fakt = new Mt103();
 		fakt.setIdPoruke("101");
-		DatabaseWriter<Mt103> dbw = new DatabaseWriter<>(fakt);
+		DatabaseWriter<Mt103> dbw = new DatabaseWriter<Mt103>(fakt);
 		try {
 			dbw.store();
 		} catch (IOException e) {

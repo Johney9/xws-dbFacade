@@ -1,11 +1,13 @@
 package facades;
 
-import util.NestedFieldGetter;
+import util.NestedFieldValueGetter;
 
 public class IdGeneratorFacade {
 	
+	//TODO: fix so it actually generates an id
+	
 	protected Object target;
-	protected final String defaultIdKey = "getIdPoruke";
+	protected final String defaultIdKey = "getId";
 	protected final String defaultBrojRacunaKey = "getBrojRacuna";
 
 	public IdGeneratorFacade(Object target) {
@@ -15,17 +17,25 @@ public class IdGeneratorFacade {
 	/*
 	 * Gets the default id used in the XWS project models
 	 */
-	public String generateIdXws() {
-		NestedFieldGetter nfg = new NestedFieldGetter();
+	public String findIdXWS() {
+		NestedFieldValueGetter nfg = new NestedFieldValueGetter();
 		String retVal="";
 		try {
 			retVal = (String) nfg.findField(target, defaultIdKey, defaultBrojRacunaKey);
 		}
 		catch (ClassCastException cce) {
-			System.err.println("Error casting to string!");
+			System.err.println("Error casting to string! At: " +this.getClass().getSimpleName() + " @ " + Thread.currentThread().getStackTrace()[2].getLineNumber());
 		}
 		return retVal;
 	}
+	
+	public static String generateIdXWS(String...keys) {
+		Integer hashCode = 1;
+		for(String key : keys) {
+			if(key!=null) hashCode += key.hashCode();
+		}
+		return hashCode.toString();
+	} 
 
 	public Object getTarget() {
 		return target;

@@ -1,8 +1,7 @@
 package util.converter;
 
 import java.io.InputStream;
-import java.nio.file.Path;
-import java.nio.file.Paths;
+import java.net.URL;
 
 import javax.xml.XMLConstants;
 import javax.xml.bind.JAXBContext;
@@ -22,7 +21,7 @@ import org.xml.sax.SAXException;
 public class GenericXWSUnmarshaller<T> {
 	
 	protected JAXBContext context=null;
-	protected final String MODEL_PATH="xws-model/xml/";
+	protected final String MODEL_PATH="../xws-model/xml/";
 	protected String namespace;
 	protected String fileName;
 	protected InputStream in;
@@ -79,13 +78,18 @@ public class GenericXWSUnmarshaller<T> {
 		
 		Schema schema;
 		
+		/*
 		Path workspacePath = Paths.get(System.getProperty("user.dir"), "");
 		workspacePath = workspacePath.getParent();
 		Path schemaPath = workspacePath.resolve(MODEL_PATH+fileName+".xsd");
 
 		//lokacija seme
 		schema = schemaFactory.newSchema(schemaPath.toFile());
-		//schema = schemaFactory.newSchema(new File(MODEL_PATH+schemaName+".xsd"));
+		*/
+		URL schemaLocation = this.getClass().getClassLoader().getResource("../xml/"+fileName+".xsd");
+		schema = schemaFactory.newSchema(schemaLocation);
+		
+		
         //setuje se sema
 		unmarshaller.setSchema(schema);
 					//EventHandler, koji obradjuje greske, ako se dese prilikom validacije

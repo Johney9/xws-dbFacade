@@ -61,23 +61,30 @@ public class DBReaderFacadeTest {
 		}
 	}
 	
-	//@Test
+	@Test
 	public void testRead4() {
 		
 		try {
 			GenericXWSMarshaller<ZahtevZaIzvod> gxm = new GenericXWSMarshaller<ZahtevZaIzvod>(ziz, new FileOutputStream(new File("ziz.xml")));
 			GenericXWSUnmarshaller<ZahtevZaIzvod> gum = new GenericXWSUnmarshaller<ZahtevZaIzvod>(ziz, new FileInputStream("ziz.xml"));
-		
+			
 			try {
 				gxm.marshall();
-			} catch (JAXBException | SAXException e) {
+			} catch (JAXBException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (SAXException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
+
 			ZahtevZaIzvod novi = null;
 			try {
 				novi = gum.unmarshall();
-			} catch (JAXBException | SAXException e) {
+			} catch (JAXBException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (SAXException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
@@ -95,7 +102,7 @@ public class DBReaderFacadeTest {
 	//@Test
 	public void pass() {
 		IdGeneratorFacade igf = new IdGeneratorFacade(ziz);
-		System.out.println(igf.generateIdXws());
+		System.out.println(igf.findIdXWS());
 		//DBWriterFacade<ZahtevZaIzvod> zizW = new DBWriterFacade<ZahtevZaIzvod>(ziz);
 	}
 	
@@ -118,7 +125,7 @@ public class DBReaderFacadeTest {
 		}
 	}
 	
-	@Test
+	//@Test
 	public void testRead3() {
 		
 		//DBWriterFacade<ZahtevZaIzvod> zizW = new DBWriterFacade<ZahtevZaIzvod>(ziz);

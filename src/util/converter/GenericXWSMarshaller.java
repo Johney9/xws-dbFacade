@@ -1,8 +1,7 @@
 package util.converter;
 
 import java.io.OutputStream;
-import java.nio.file.Path;
-import java.nio.file.Paths;
+import java.net.URL;
 
 import javax.xml.XMLConstants;
 import javax.xml.bind.JAXBContext;
@@ -24,7 +23,7 @@ public class GenericXWSMarshaller<T> {
 	protected JAXBContext context;
 	protected T marshallee;
 	protected OutputStream out;
-	protected final String MODEL_PATH="xws-model/xml/";
+	protected final String MODEL_PATH="../xws-model/xml/";
 	protected String fileName;
 	
 	/**
@@ -72,7 +71,9 @@ public class GenericXWSMarshaller<T> {
 		//do indentation
 		marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
 		setValidation(marshaller);
+		System.out.println("## starting marhsalling ##");
 		marshaller.marshal(marshallee, out);
+		System.out.println("## marshalling done ##");
 	}
 	
 	private void setValidation(Marshaller marshaller) throws SAXException {
@@ -81,13 +82,20 @@ public class GenericXWSMarshaller<T> {
 		SchemaFactory schemaFactory = SchemaFactory.newInstance(XMLConstants.W3C_XML_SCHEMA_NS_URI);
 		
 		Schema schema = null;
-		
-		Path workspacePath = Paths.get(System.getProperty("user.dir"), "");
+		//java 7 implementation
+		/*
+		File workspacePath = Paths.get(System.getProperty("user.dir"), "");
 		workspacePath = workspacePath.getParent();
 		Path schemaPath = workspacePath.resolve(MODEL_PATH+fileName+".xsd");
-
+		*/
+		
+		
 		//lokacija seme
-		schema = schemaFactory.newSchema(schemaPath.toFile());
+		//schema = schemaFactory.newSchema(schemaPath.toFile());
+		
+		URL schemaLocation = this.getClass().getClassLoader().getResource("../xml/"+fileName+".xsd");
+		System.out.println("*******schema location: "+schemaLocation);
+		schema = schemaFactory.newSchema(schemaLocation);
 		marshaller.setSchema(schema);
 	}
 	public JAXBContext getContext() {

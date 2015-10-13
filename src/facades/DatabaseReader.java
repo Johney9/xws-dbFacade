@@ -5,6 +5,8 @@ import java.io.IOException;
 
 import javax.xml.bind.JAXBException;
 
+import org.xml.sax.SAXException;
+
 import util.converter.GenericXWSUnmarshaller;
 
 import com.xmldb.rest.RESTUtil;
@@ -28,7 +30,7 @@ public class DatabaseReader<T> {
 	 */
 	public DatabaseReader(T type, String schemaName) {
 		this.type=type;
-		this.schemaName=schemaName.toLowerCase().trim();
+		this.schemaName=schemaName.trim();
 		generateFileName();
 	}
 	
@@ -41,7 +43,7 @@ public class DatabaseReader<T> {
 	public DatabaseReader(T type, String fileName, String schemaName) {
 		this.fileName = fileName.toLowerCase().trim();
 		this.type = type;
-		this.schemaName = schemaName.toLowerCase().trim();
+		this.schemaName = schemaName.trim();
 	}
 
 	
@@ -56,7 +58,7 @@ public class DatabaseReader<T> {
 	 * @throws JAXBException, IOException
 	 * @throws Exception exception probably thrown by {@code RESTUtil.class}
 	 */
-	public T read() throws JAXBException, IOException, Exception {
+	public T read() throws SAXException, JAXBException, IOException, Exception {
 		T retVal = null;
 		
 		BufferedInputStream in = new BufferedInputStream(RESTUtil.retrieveSpecificResource(fileName, schemaName));

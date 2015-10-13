@@ -1,6 +1,9 @@
 package facades;
 
 import java.io.BufferedOutputStream;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.URL;
@@ -44,9 +47,10 @@ public class DatabaseWriter<T> {
 		this.marshalee=marshalee;
 	}
 	
+	//not working correctly
 	private String generateId() {
 		IdGeneratorFacade igf = new IdGeneratorFacade(marshalee);
-		return igf.generateIdXws();
+		return igf.findIdXWS();
 	}
 	
 	/**
@@ -54,7 +58,8 @@ public class DatabaseWriter<T> {
 	 * @throws JAXBException, IOException, SAXException
 	 * @throws Exception exception probably thrown by {@code RESTUtil.class}
 	 */
-	public void store() throws JAXBException, IOException, SAXException, Exception {
+	@Deprecated
+	public void storeOld() throws JAXBException, IOException, SAXException, Exception {
 		System.out.println("=== PUT: create a new database ===");
 
 		try {
@@ -66,10 +71,11 @@ public class DatabaseWriter<T> {
 		
 		/* URL konekcije ka konkretnom resursu - semi baze */
 		String fullPackageName = marshalee.getClass().getPackage().getName();
+		@SuppressWarnings("unused")
 		String resourceId = fullPackageName.substring(fullPackageName.lastIndexOf(".")+1);
-		URL url = new URL(RESTUtil.REST_URL + schemaName + "/" + resourceId +".xml");
+		URL url = new URL(RESTUtil.REST_URL + schemaName);// + "/" + resourceId +".xml");
 		System.out.println("\n* URL: " + url);
-
+		
 		/* Uspostavljanje konekcije */
 		HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 		/* Tip konekcije je OUTPUT */
@@ -79,6 +85,8 @@ public class DatabaseWriter<T> {
 
 		/* Preuzimanje output stream-a iz otvorene konekcije */
 		BufferedOutputStream out = new BufferedOutputStream(conn.getOutputStream());
+		
+		System.out.println("connection to database: "+out.toString());
 		gxm = new GenericXWSMarshaller<T>(marshalee, out);
 		
 		/* Slanje podataka kroz stream */
@@ -90,6 +98,27 @@ public class DatabaseWriter<T> {
 
 		/* Obavezno zatvaranje tekuce konekcije */
 		conn.disconnect();
+	}
+	
+	public void store() throws JAXBException, IOException, SAXException, Exception {
+		
+		String fullPackageName = marshalee.getClass().getPackage().getName();
+		String resourceId = fullPackageName.substring(fullPackageName.lastIndexOf(".")+1);
+		resourceId+=".xml";
+				
+		File tempFile = new File(resourceId);
+		FileOutputStream out = new FileOutputStream(tempFile);
+		gxm = new GenericXWSMarshaller<T>(marshalee, out);
+		gxm.marshall();
+
+		FileInputStream resource = new FileInputStream(tempFile);
+		System.out.printf("+++DB WRITER; schemaName=%s resourceId=%s",schemaName,resourceId);
+		System.out.println();
+		int code = RESTUtil.getSchema(schemaName);
+		if(code==404) {
+			RESTUtil.createSchema(schemaName);
+		}
+		RESTUtil.updateResource(schemaName, resourceId, resource);
 	}
 	
 	public String getSchemaName() {
