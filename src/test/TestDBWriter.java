@@ -11,7 +11,7 @@ import org.junit.Test;
 import rs.ac.uns.ftn.xws.cbs.faktura.Faktura;
 import rs.ac.uns.ftn.xws.cbs.faktura.FakturaZaglavlje;
 import rs.ac.uns.ftn.xws.cbs.mt103.Mt103;
-import facades.DBWriterFacade;
+import facades.DatabaseWriter;
 
 public class TestDBWriter {
 
@@ -28,9 +28,9 @@ public class TestDBWriter {
 		Faktura fakt = new Faktura();
 		fakt.setZaglavlje(new FakturaZaglavlje());
 		fakt.getZaglavlje().setIdPoruke("123456789123456789");
-		DBWriterFacade<Faktura> dbw = new DBWriterFacade<Faktura>(fakt);
+		DatabaseWriter<Faktura> dbw = new DatabaseWriter<Faktura>(fakt);
 		try {
-			dbw.save();
+			dbw.store();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -47,9 +47,9 @@ public class TestDBWriter {
 	public void testSave2() {
 		Mt103 fakt = new Mt103();
 		fakt.setIdPoruke("101");
-		DBWriterFacade<Mt103> dbw = new DBWriterFacade<>(fakt);
+		DatabaseWriter<Mt103> dbw = new DatabaseWriter<Mt103>(fakt);
 		try {
-			dbw.save();
+			dbw.store();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

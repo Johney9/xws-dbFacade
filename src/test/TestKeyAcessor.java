@@ -27,13 +27,13 @@ public class TestKeyAcessor {
 		ZahtevZaIzvod ziz = new ZahtevZaIzvod();
 		ziz.setBrojRacuna("007");
 		IdGeneratorFacade igf = new IdGeneratorFacade(ziz);
-		System.out.println(igf.generateIdXws());
+		System.out.println(igf.findIdXWS());
 		
 		Mt102 mt102 = new Mt102();
 		mt102.setIdPoruke("johney");
 		
 		IdGeneratorFacade igf2 = new IdGeneratorFacade(mt102);
-		System.err.println(igf2.generateIdXws());
+		System.err.println(igf2.findIdXWS());
 		
 	}
 	
@@ -44,7 +44,7 @@ public class TestKeyAcessor {
 		fktzag.setIdPoruke("0212");
 		fkt.setZaglavlje(fktzag);
 		IdGeneratorFacade igf = new IdGeneratorFacade(fkt);
-		System.out.println(igf.generateIdXws());
+		System.out.println(igf.findIdXWS());
 		
 		Izvod izvod = new Izvod();
 		IzvodZaglavlje izvodZaglavlje = new IzvodZaglavlje();
@@ -52,7 +52,7 @@ public class TestKeyAcessor {
 		izvodZaglavlje.setBrojRacuna("dzonimir");
 		izvod.setZaglavlje(izvodZaglavlje);
 		IdGeneratorFacade igf2 = new IdGeneratorFacade(izvod);
-		System.err.println(igf2.generateIdXws());
+		System.err.println(igf2.findIdXWS());
 	}
 
 }

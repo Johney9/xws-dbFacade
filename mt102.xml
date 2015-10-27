@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<mt102:mt102 xmlns:mt102="http://www.ftn.uns.ac.rs/xws/cbs/mt102">
+    <mt102:id_poruke>KECA</mt102:id_poruke>
+    <mt102:swift_kod_banke_duznika>SBBER001</mt102:swift_kod_banke_duznika>
+    <mt102:obracunski_racun_banke_duznika>123456789123456789</mt102:obracunski_racun_banke_duznika>
+    <mt102:swift_kod_banke_poverioca>SBBER002</mt102:swift_kod_banke_poverioca>
+    <mt102:obracunski_racun_banke_poverioca>123456789123456788</mt102:obracunski_racun_banke_poverioca>
+    <mt102:ukupan_iznos>9001</mt102:ukupan_iznos>
+    <mt102:sifra_valute>DIN</mt102:sifra_valute>
+    <mt102:datum_valute>2015-04-19+02:00</mt102:datum_valute>
+    <mt102:datum>2015-04-19+02:00</mt102:datum>
+    <mt102:pojedinacni_nalozi>
+        <mt102:id_naloga_za_placanje>0:KECA</mt102:id_naloga_za_placanje>
+        <mt102:duznik_nalogodavac>MALOLETNICE INC</mt102:duznik_nalogodavac>
+        <mt102:svrha_placanja>ODSTETA</mt102:svrha_placanja>
+        <mt102:primalac_poverilac>KECA INDUSTRIES</mt102:primalac_poverilac>
+        <mt102:datum_naloga>2015-04-19+02:00</mt102:datum_naloga>
+        <mt102:racun_duznika>123456789123456789</mt102:racun_duznika>
+        <mt102:model_zaduzenja>70</mt102:model_zaduzenja>
+        <mt102:poziv_na_broj_zaduzenja>77777777777777777777</mt102:poziv_na_broj_zaduzenja>
+        <mt102:racun_poverioca>123456789123456788</mt102:racun_poverioca>
+        <mt102:model_odobrenja>93</mt102:model_odobrenja>
+        <mt102:poziv_na_broj_odobrenja>99999999999999999999</mt102:poziv_na_broj_odobrenja>
+        <mt102:iznos>169.83</mt102:iznos>
+        <mt102:sifra_valute>123</mt102:sifra_valute>
+    </mt102:pojedinacni_nalozi>
+    <mt102:pojedinacni_nalozi>
+        <mt102:id_naloga_za_placanje>1:KECA</mt102:id_naloga_za_placanje>
+        <mt102:duznik_nalogodavac>MALOLETNICE INC</mt102:duznik_nalogodavac>
+        <mt102:svrha_placanja>ODSTETA</mt102:svrha_placanja>
+        <mt102:primalac_poverilac>KECA INDUSTRIES</mt102:primalac_poverilac>
+        <mt102:datum_naloga>2015-04-19+02:00</mt102:datum_naloga>
+        <mt102:racun_duznika>123456789123456789</mt102:racun_duznika>
+        <mt102:model_zaduzenja>70</mt102:model_zaduzenja>
+        <mt102:poziv_na_broj_zaduzenja>77777777777777777777</mt102:poziv_na_broj_zaduzenja>
+        <mt102:racun_poverioca>123456789123456788</mt102:racun_poverioca>
+        <mt102:model_odobrenja>93</mt102:model_odobrenja>
+        <mt102:poziv_na_broj_odobrenja>99999999999999999999</mt102:poziv_na_broj_odobrenja>
+        <mt102:iznos>169.83</mt102:iznos>
+        <mt102:sifra_valute>123</mt102:sifra_valute>
+    </mt102:pojedinacni_nalozi>
+    <mt102:pojedinacni_nalozi>
+        <mt102:id_naloga_za_placanje>2:KECA</mt102:id_naloga_za_placanje>
+        <mt102:duznik_nalogodavac>MALOLETNICE INC</mt102:duznik_nalogodavac>
+        <mt102:svrha_placanja>ODSTETA</mt102:svrha_placanja>
+        <mt102:primalac_poverilac>KECA INDUSTRIES</mt102:primalac_poverilac>
+        <mt102:datum_naloga>2015-04-19+02:00</mt102:datum_naloga>
+        <mt102:racun_duznika>123456789123456789</mt102:racun_duznika>
+        <mt102:model_zaduzenja>70</mt102:model_zaduzenja>
+        <mt102:poziv_na_broj_zaduzenja>77777777777777777777</mt102:poziv_na_broj_zaduzenja>
+        <mt102:racun_poverioca>123456789123456788</mt102:racun_poverioca>
+        <mt102:model_odobrenja>93</mt102:model_odobrenja>
+        <mt102:poziv_na_broj_odobrenja>99999999999999999999</mt102:poziv_na_broj_odobrenja>
+        <mt102:iznos>169.83</mt102:iznos>
+        <mt102:sifra_valute>123</mt102:sifra_valute>
+    </mt102:pojedinacni_nalozi>
+    <mt102:pojedinacni_nalozi>
+        <mt102:id_naloga_za_placanje>3:KECA</mt102:id_naloga_za_placanje>
+        <mt102:duznik_nalogodavac>MALOLETNICE INC</mt102:duznik_nalogodavac>
+        <mt102:svrha_placanja>ODSTETA</mt102:svrha_placanja>
+        <mt102:primalac_poverilac>KECA INDUSTRIES</mt102:primalac_poverilac>
+        <mt102:datum_naloga>2015-04-19+02:00</mt102:datum_naloga>
+        <mt102:racun_duznika>123456789123456789</mt102:racun_duznika>
+        <mt102:model_zaduzenja>70</mt102:model_zaduzenja>
+        <mt102:poziv_na_broj_zaduzenja>77777777777777777777</mt102:poziv_na_broj_zaduzenja>
+        <mt102:racun_poverioca>123456789123456788</mt102:racun_poverioca>
+        <mt102:model_odobrenja>93</mt102:model_odobrenja>
+        <mt102:poziv_na_broj_odobrenja>99999999999999999999</mt102:poziv_na_broj_odobrenja>
+        <mt102:iznos>169.83</mt102:iznos>
+        <mt102:sifra_valute>123</mt102:sifra_valute>
+    </mt102:pojedinacni_nalozi>
+    <mt102:pojedinacni_nalozi>
+        <mt102:id_naloga_za_placanje>4:KECA</mt102:id_naloga_za_placanje>
+        <mt102:duznik_nalogodavac>MALOLETNICE INC</mt102:duznik_nalogodavac>
+        <mt102:svrha_placanja>ODSTETA</mt102:svrha_placanja>
+        <mt102:primalac_poverilac>KECA INDUSTRIES</mt102:primalac_poverilac>
+        <mt102:datum_naloga>2015-04-19+02:00</mt102:datum_naloga>
+        <mt102:racun_duznika>123456789123456789</mt102:racun_duznika>
+        <mt102:model_zaduzenja>70</mt102:model_zaduzenja>
+        <mt102:poziv_na_broj_zaduzenja>77777777777777777777</mt102:poziv_na_broj_zaduzenja>
+        <mt102:racun_poverioca>123456789123456788</mt102:racun_poverioca>
+        <mt102:model_odobrenja>93</mt102:model_odobrenja>
+        <mt102:poziv_na_broj_odobrenja>99999999999999999999</mt102:poziv_na_broj_odobrenja>
+        <mt102:iznos>169.83</mt102:iznos>
+        <mt102:sifra_valute>123</mt102:sifra_valute>
+    </mt102:pojedinacni_nalozi>
+    <mt102:pojedinacni_nalozi>
+        <mt102:id_naloga_za_placanje>5:KECA</mt102:id_naloga_za_placanje>
+        <mt102:duznik_nalogodavac>MALOLETNICE INC</mt102:duznik_nalogodavac>
+        <mt102:svrha_placanja>ODSTETA</mt102:svrha_placanja>
+        <mt102:primalac_poverilac>KECA INDUSTRIES</mt102:primalac_poverilac>
+        <mt102:datum_naloga>2015-04-19+02:00</mt102:datum_naloga>
+        <mt102:racun_duznika>123456789123456789</mt102:racun_duznika>
+        <mt102:model_zaduzenja>70</mt102:model_zaduzenja>
+        <mt102:poziv_na_broj_zaduzenja>77777777777777777777</mt102:poziv_na_broj_zaduzenja>
+        <mt102:racun_poverioca>123456789123456788</mt102:racun_poverioca>
+        <mt102:model_odobrenja>93</mt102:model_odobrenja>
+        <mt102:poziv_na_broj_odobrenja>99999999999999999999</mt102:poziv_na_broj_odobrenja>
+        <mt102:iznos>169.83</mt102:iznos>
+        <mt102:sifra_valute>123</mt102:sifra_valute>
+    </mt102:pojedinacni_nalozi>
+    <mt102:pojedinacni_nalozi>
+        <mt102:id_naloga_za_placanje>6:KECA</mt102:id_naloga_za_placanje>
+        <mt102:duznik_nalogodavac>MALOLETNICE INC</mt102:duznik_nalogodavac>
+        <mt102:svrha_placanja>ODSTETA</mt102:svrha_placanja>
+        <mt102:primalac_poverilac>KECA INDUSTRIES</mt102:primalac_poverilac>
+        <mt102:datum_naloga>2015-04-19+02:00</mt102:datum_naloga>
+        <mt102:racun_duznika>123456789123456789</mt102:racun_duznika>
+        <mt102:model_zaduzenja>70</mt102:model_zaduzenja>
+        <mt102:poziv_na_broj_zaduzenja>77777777777777777777</mt102:poziv_na_broj_zaduzenja>
+        <mt102:racun_poverioca>123456789123456788</mt102:racun_poverioca>
+        <mt102:model_odobrenja>93</mt102:model_odobrenja>
+        <mt102:poziv_na_broj_odobrenja>99999999999999999999</mt102:poziv_na_broj_odobrenja>
+        <mt102:iznos>169.83</mt102:iznos>
+        <mt102:sifra_valute>123</mt102:sifra_valute>
+    </mt102:pojedinacni_nalozi>
+    <mt102:pojedinacni_nalozi>
+        <mt102:id_naloga_za_placanje>7:KECA</mt102:id_naloga_za_placanje>
+        <mt102:duznik_nalogodavac>MALOLETNICE INC</mt102:duznik_nalogodavac>
+        <mt102:svrha_placanja>ODSTETA</mt102:svrha_placanja>
+        <mt102:primalac_poverilac>KECA INDUSTRIES</mt102:primalac_poverilac>
+        <mt102:datum_naloga>2015-04-19+02:00</mt102:datum_naloga>
+        <mt102:racun_duznika>123456789123456789</mt102:racun_duznika>
+        <mt102:model_zaduzenja>70</mt102:model_zaduzenja>
+        <mt102:poziv_na_broj_zaduzenja>77777777777777777777</mt102:poziv_na_broj_zaduzenja>
+        <mt102:racun_poverioca>123456789123456788</mt102:racun_poverioca>
+        <mt102:model_odobrenja>93</mt102:model_odobrenja>
+        <mt102:poziv_na_broj_odobrenja>99999999999999999999</mt102:poziv_na_broj_odobrenja>
+        <mt102:iznos>169.83</mt102:iznos>
+        <mt102:sifra_valute>123</mt102:sifra_valute>
+    </mt102:pojedinacni_nalozi>
+    <mt102:pojedinacni_nalozi>
+        <mt102:id_naloga_za_placanje>8:KECA</mt102:id_naloga_za_placanje>
+        <mt102:duznik_nalogodavac>MALOLETNICE INC</mt102:duznik_nalogodavac>
+        <mt102:svrha_placanja>ODSTETA</mt102:svrha_placanja>
+        <mt102:primalac_poverilac>KECA INDUSTRIES</mt102:primalac_poverilac>
+        <mt102:datum_naloga>2015-04-19+02:00</mt102:datum_naloga>
+        <mt102:racun_duznika>123456789123456789</mt102:racun_duznika>
+        <mt102:model_zaduzenja>70</mt102:model_zaduzenja>
+        <mt102:poziv_na_broj_zaduzenja>77777777777777777777</mt102:poziv_na_broj_zaduzenja>
+        <mt102:racun_poverioca>123456789123456788</mt102:racun_poverioca>
+        <mt102:model_odobrenja>93</mt102:model_odobrenja>
+        <mt102:poziv_na_broj_odobrenja>99999999999999999999</mt102:poziv_na_broj_odobrenja>
+        <mt102:iznos>169.83</mt102:iznos>
+        <mt102:sifra_valute>123</mt102:sifra_valute>
+    </mt102:pojedinacni_nalozi>
+    <mt102:pojedinacni_nalozi>
+        <mt102:id_naloga_za_placanje>9:KECA</mt102:id_naloga_za_placanje>
+        <mt102:duznik_nalogodavac>MALOLETNICE INC</mt102:duznik_nalogodavac>
+        <mt102:svrha_placanja>ODSTETA</mt102:svrha_placanja>
+        <mt102:primalac_poverilac>KECA INDUSTRIES</mt102:primalac_poverilac>
+        <mt102:datum_naloga>2015-04-19+02:00</mt102:datum_naloga>
+        <mt102:racun_duznika>123456789123456789</mt102:racun_duznika>
+        <mt102:model_zaduzenja>70</mt102:model_zaduzenja>
+        <mt102:poziv_na_broj_zaduzenja>77777777777777777777</mt102:poziv_na_broj_zaduzenja>
+        <mt102:racun_poverioca>123456789123456788</mt102:racun_poverioca>
+        <mt102:model_odobrenja>93</mt102:model_odobrenja>
+        <mt102:poziv_na_broj_odobrenja>99999999999999999999</mt102:poziv_na_broj_odobrenja>
+        <mt102:iznos>169.83</mt102:iznos>
+        <mt102:sifra_valute>123</mt102:sifra_valute>
+    </mt102:pojedinacni_nalozi>
+    <mt102:pojedinacni_nalozi>
+        <mt102:id_naloga_za_placanje>10:KECA</mt102:id_naloga_za_placanje>
+        <mt102:duznik_nalogodavac>MALOLETNICE INC</mt102:duznik_nalogodavac>
+        <mt102:svrha_placanja>ODSTETA</mt102:svrha_placanja>
+        <mt102:primalac_poverilac>KECA INDUSTRIES</mt102:primalac_poverilac>
+        <mt102:datum_naloga>2015-04-19+02:00</mt102:datum_naloga>
+        <mt102:racun_duznika>123456789123456789</mt102:racun_duznika>
+        <mt102:model_zaduzenja>70</mt102:model_zaduzenja>
+        <mt102:poziv_na_broj_zaduzenja>77777777777777777777</mt102:poziv_na_broj_zaduzenja>
+        <mt102:racun_poverioca>123456789123456788</mt102:racun_poverioca>
+        <mt102:model_odobrenja>93</mt102:model_odobrenja>
+        <mt102:poziv_na_broj_odobrenja>99999999999999999999</mt102:poziv_na_broj_odobrenja>
+        <mt102:iznos>169.83</mt102:iznos>
+        <mt102:sifra_valute>123</mt102:sifra_valute>
+    </mt102:pojedinacni_nalozi>
+    <mt102:pojedinacni_nalozi>
+        <mt102:id_naloga_za_placanje>11:KECA</mt102:id_naloga_za_placanje>
+        <mt102:duznik_nalogodavac>MALOLETNICE INC</mt102:duznik_nalogodavac>
+        <mt102:svrha_placanja>ODSTETA</mt102:svrha_placanja>
+        <mt102:primalac_poverilac>KECA INDUSTRIES</mt102:primalac_poverilac>
+        <mt102:datum_naloga>2015-04-19+02:00</mt102:datum_naloga>
+        <mt102:racun_duznika>123456789123456789</mt102:racun_duznika>
+        <mt102:model_zaduzenja>70</mt102:model_zaduzenja>
+        <mt102:poziv_na_broj_zaduzenja>77777777777777777777</mt102:poziv_na_broj_zaduzenja>
+        <mt102:racun_poverioca>123456789123456788</mt102:racun_poverioca>
+        <mt102:model_odobrenja>93</mt102:model_odobrenja>
+        <mt102:poziv_na_broj_odobrenja>99999999999999999999</mt102:poziv_na_broj_odobrenja>
+        <mt102:iznos>169.83</mt102:iznos>
+        <mt102:sifra_valute>123</mt102:sifra_valute>
+    </mt102:pojedinacni_nalozi>
+    <mt102:pojedinacni_nalozi>
+        <mt102:id_naloga_za_placanje>12:KECA</mt102:id_naloga_za_placanje>
+        <mt102:duznik_nalogodavac>MALOLETNICE INC</mt102:duznik_nalogodavac>
+        <mt102:svrha_placanja>ODSTETA</mt102:svrha_placanja>
+        <mt102:primalac_poverilac>KECA INDUSTRIES</mt102:primalac_poverilac>
+        <mt102:datum_naloga>2015-04-19+02:00</mt102:datum_naloga>
+        <mt102:racun_duznika>123456789123456789</mt102:racun_duznika>
+        <mt102:model_zaduzenja>70</mt102:model_zaduzenja>
+        <mt102:poziv_na_broj_zaduzenja>77777777777777777777</mt102:poziv_na_broj_zaduzenja>
+        <mt102:racun_poverioca>123456789123456788</mt102:racun_poverioca>
+        <mt102:model_odobrenja>93</mt102:model_odobrenja>
+        <mt102:poziv_na_broj_odobrenja>99999999999999999999</mt102:poziv_na_broj_odobrenja>
+        <mt102:iznos>169.83</mt102:iznos>
+        <mt102:sifra_valute>123</mt102:sifra_valute>
+    </mt102:pojedinacni_nalozi>
+    <mt102:pojedinacni_nalozi>
+        <mt102:id_naloga_za_placanje>13:KECA</mt102:id_naloga_za_placanje>
+        <mt102:duznik_nalogodavac>MALOLETNICE INC</mt102:duznik_nalogodavac>
+        <mt102:svrha_placanja>ODSTETA</mt102:svrha_placanja>
+        <mt102:primalac_poverilac>KECA INDUSTRIES</mt102:primalac_poverilac>
+        <mt102:datum_naloga>2015-04-19+02:00</mt102:datum_naloga>
+        <mt102:racun_duznika>123456789123456789</mt102:racun_duznika>
+        <mt102:model_zaduzenja>70</mt102:model_zaduzenja>
+        <mt102:poziv_na_broj_zaduzenja>77777777777777777777</mt102:poziv_na_broj_zaduzenja>
+        <mt102:racun_poverioca>123456789123456788</mt102:racun_poverioca>
+        <mt102:model_odobrenja>93</mt102:model_odobrenja>
+        <mt102:poziv_na_broj_odobrenja>99999999999999999999</mt102:poziv_na_broj_odobrenja>
+        <mt102:iznos>169.83</mt102:iznos>
+        <mt102:sifra_valute>123</mt102:sifra_valute>
+    </mt102:pojedinacni_nalozi>
+    <mt102:pojedinacni_nalozi>
+        <mt102:id_naloga_za_placanje>14:KECA</mt102:id_naloga_za_placanje>
+        <mt102:duznik_nalogodavac>MALOLETNICE INC</mt102:duznik_nalogodavac>
+        <mt102:svrha_placanja>ODSTETA</mt102:svrha_placanja>
+        <mt102:primalac_poverilac>KECA INDUSTRIES</mt102:primalac_poverilac>
+        <mt102:datum_naloga>2015-04-19+02:00</mt102:datum_naloga>
+        <mt102:racun_duznika>123456789123456789</mt102:racun_duznika>
+        <mt102:model_zaduzenja>70</mt102:model_zaduzenja>
+        <mt102:poziv_na_broj_zaduzenja>77777777777777777777</mt102:poziv_na_broj_zaduzenja>
+        <mt102:racun_poverioca>123456789123456788</mt102:racun_poverioca>
+        <mt102:model_odobrenja>93</mt102:model_odobrenja>
+        <mt102:poziv_na_broj_odobrenja>99999999999999999999</mt102:poziv_na_broj_odobrenja>
+        <mt102:iznos>169.83</mt102:iznos>
+        <mt102:sifra_valute>123</mt102:sifra_valute>
+    </mt102:pojedinacni_nalozi>
+    <mt102:pojedinacni_nalozi>
+        <mt102:id_naloga_za_placanje>15:KECA</mt102:id_naloga_za_placanje>
+        <mt102:duznik_nalogodavac>MALOLETNICE INC</mt102:duznik_nalogodavac>
+        <mt102:svrha_placanja>ODSTETA</mt102:svrha_placanja>
+        <mt102:primalac_poverilac>KECA INDUSTRIES</mt102:primalac_poverilac>
+        <mt102:datum_naloga>2015-04-19+02:00</mt102:datum_naloga>
+        <mt102:racun_duznika>123456789123456789</mt102:racun_duznika>
+        <mt102:model_zaduzenja>70</mt102:model_zaduzenja>
+        <mt102:poziv_na_broj_zaduzenja>77777777777777777777</mt102:poziv_na_broj_zaduzenja>
+        <mt102:racun_poverioca>123456789123456788</mt102:racun_poverioca>
+        <mt102:model_odobrenja>93</mt102:model_odobrenja>
+        <mt102:poziv_na_broj_odobrenja>99999999999999999999</mt102:poziv_na_broj_odobrenja>
+        <mt102:iznos>169.83</mt102:iznos>
+        <mt102:sifra_valute>123</mt102:sifra_valute>
+    </mt102:pojedinacni_nalozi>
+    <mt102:pojedinacni_nalozi>
+        <mt102:id_naloga_za_placanje>16:KECA</mt102:id_naloga_za_placanje>
+        <mt102:duznik_nalogodavac>MALOLETNICE INC</mt102:duznik_nalogodavac>
+        <mt102:svrha_placanja>ODSTETA</mt102:svrha_placanja>
+        <mt102:primalac_poverilac>KECA INDUSTRIES</mt102:primalac_poverilac>
+        <mt102:datum_naloga>2015-04-19+02:00</mt102:datum_naloga>
+        <mt102:racun_duznika>123456789123456789</mt102:racun_duznika>
+        <mt102:model_zaduzenja>70</mt102:model_zaduzenja>
+        <mt102:poziv_na_broj_zaduzenja>77777777777777777777</mt102:poziv_na_broj_zaduzenja>
+        <mt102:racun_poverioca>123456789123456788</mt102:racun_poverioca>
+        <mt102:model_odobrenja>93</mt102:model_odobrenja>
+        <mt102:poziv_na_broj_odobrenja>99999999999999999999</mt102:poziv_na_broj_odobrenja>
+        <mt102:iznos>169.83</mt102:iznos>
+        <mt102:sifra_valute>123</mt102:sifra_valute>
+    </mt102:pojedinacni_nalozi>
+    <mt102:pojedinacni_nalozi>
+        <mt102:id_naloga_za_placanje>17:KECA</mt102:id_naloga_za_placanje>
+        <mt102:duznik_nalogodavac>MALOLETNICE INC</mt102:duznik_nalogodavac>
+        <mt102:svrha_placanja>ODSTETA</mt102:svrha_placanja>
+        <mt102:primalac_poverilac>KECA INDUSTRIES</mt102:primalac_poverilac>
+        <mt102:datum_naloga>2015-04-19+02:00</mt102:datum_naloga>
+        <mt102:racun_duznika>123456789123456789</mt102:racun_duznika>
+        <mt102:model_zaduzenja>70</mt102:model_zaduzenja>
+        <mt102:poziv_na_broj_zaduzenja>77777777777777777777</mt102:poziv_na_broj_zaduzenja>
+        <mt102:racun_poverioca>123456789123456788</mt102:racun_poverioca>
+        <mt102:model_odobrenja>93</mt102:model_odobrenja>
+        <mt102:poziv_na_broj_odobrenja>99999999999999999999</mt102:poziv_na_broj_odobrenja>
+        <mt102:iznos>169.83</mt102:iznos>
+        <mt102:sifra_valute>123</mt102:sifra_valute>
+    </mt102:pojedinacni_nalozi>
+    <mt102:pojedinacni_nalozi>
+        <mt102:id_naloga_za_placanje>18:KECA</mt102:id_naloga_za_placanje>
+        <mt102:duznik_nalogodavac>MALOLETNICE INC</mt102:duznik_nalogodavac>
+        <mt102:svrha_placanja>ODSTETA</mt102:svrha_placanja>
+        <mt102:primalac_poverilac>KECA INDUSTRIES</mt102:primalac_poverilac>
+        <mt102:datum_naloga>2015-04-19+02:00</mt102:datum_naloga>
+        <mt102:racun_duznika>123456789123456789</mt102:racun_duznika>
+        <mt102:model_zaduzenja>70</mt102:model_zaduzenja>
+        <mt102:poziv_na_broj_zaduzenja>77777777777777777777</mt102:poziv_na_broj_zaduzenja>
+        <mt102:racun_poverioca>123456789123456788</mt102:racun_poverioca>
+        <mt102:model_odobrenja>93</mt102:model_odobrenja>
+        <mt102:poziv_na_broj_odobrenja>99999999999999999999</mt102:poziv_na_broj_odobrenja>
+        <mt102:iznos>169.83</mt102:iznos>
+        <mt102:sifra_valute>123</mt102:sifra_valute>
+    </mt102:pojedinacni_nalozi>
+    <mt102:pojedinacni_nalozi>
+        <mt102:id_naloga_za_placanje>19:KECA</mt102:id_naloga_za_placanje>
+        <mt102:duznik_nalogodavac>MALOLETNICE INC</mt102:duznik_nalogodavac>
+        <mt102:svrha_placanja>ODSTETA</mt102:svrha_placanja>
+        <mt102:primalac_poverilac>KECA INDUSTRIES</mt102:primalac_poverilac>
+        <mt102:datum_naloga>2015-04-19+02:00</mt102:datum_naloga>
+        <mt102:racun_duznika>123456789123456789</mt102:racun_duznika>
+        <mt102:model_zaduzenja>70</mt102:model_zaduzenja>
+        <mt102:poziv_na_broj_zaduzenja>77777777777777777777</mt102:poziv_na_broj_zaduzenja>
+        <mt102:racun_poverioca>123456789123456788</mt102:racun_poverioca>
+        <mt102:model_odobrenja>93</mt102:model_odobrenja>
+        <mt102:poziv_na_broj_odobrenja>99999999999999999999</mt102:poziv_na_broj_odobrenja>
+        <mt102:iznos>169.83</mt102:iznos>
+        <mt102:sifra_valute>123</mt102:sifra_valute>
+    </mt102:pojedinacni_nalozi>
+    <mt102:pojedinacni_nalozi>
+        <mt102:id_naloga_za_placanje>20:KECA</mt102:id_naloga_za_placanje>
+        <mt102:duznik_nalogodavac>MALOLETNICE INC</mt102:duznik_nalogodavac>
+        <mt102:svrha_placanja>ODSTETA</mt102:svrha_placanja>
+        <mt102:primalac_poverilac>KECA INDUSTRIES</mt102:primalac_poverilac>
+        <mt102:datum_naloga>2015-04-19+02:00</mt102:datum_naloga>
+        <mt102:racun_duznika>123456789123456789</mt102:racun_duznika>
+        <mt102:model_zaduzenja>70</mt102:model_zaduzenja>
+        <mt102:poziv_na_broj_zaduzenja>77777777777777777777</mt102:poziv_na_broj_zaduzenja>
+        <mt102:racun_poverioca>123456789123456788</mt102:racun_poverioca>
+        <mt102:model_odobrenja>93</mt102:model_odobrenja>
+        <mt102:poziv_na_broj_odobrenja>99999999999999999999</mt102:poziv_na_broj_odobrenja>
+        <mt102:iznos>169.83</mt102:iznos>
+        <mt102:sifra_valute>123</mt102:sifra_valute>
+    </mt102:pojedinacni_nalozi>
+    <mt102:pojedinacni_nalozi>
+        <mt102:id_naloga_za_placanje>21:KECA</mt102:id_naloga_za_placanje>
+        <mt102:duznik_nalogodavac>MALOLETNICE INC</mt102:duznik_nalogodavac>
+        <mt102:svrha_placanja>ODSTETA</mt102:svrha_placanja>
+        <mt102:primalac_poverilac>KECA INDUSTRIES</mt102:primalac_poverilac>
+        <mt102:datum_naloga>2015-04-19+02:00</mt102:datum_naloga>
+        <mt102:racun_duznika>123456789123456789</mt102:racun_duznika>
+        <mt102:model_zaduzenja>70</mt102:model_zaduzenja>
+        <mt102:poziv_na_broj_zaduzenja>77777777777777777777</mt102:poziv_na_broj_zaduzenja>
+        <mt102:racun_poverioca>123456789123456788</mt102:racun_poverioca>
+        <mt102:model_odobrenja>93</mt102:model_odobrenja>
+        <mt102:poziv_na_broj_odobrenja>99999999999999999999</mt102:poziv_na_broj_odobrenja>
+        <mt102:iznos>169.83</mt102:iznos>
+        <mt102:sifra_valute>123</mt102:sifra_valute>
+    </mt102:pojedinacni_nalozi>
+    <mt102:pojedinacni_nalozi>
+        <mt102:id_naloga_za_placanje>22:KECA</mt102:id_naloga_za_placanje>
+        <mt102:duznik_nalogodavac>MALOLETNICE INC</mt102:duznik_nalogodavac>
+        <mt102:svrha_placanja>ODSTETA</mt102:svrha_placanja>
+        <mt102:primalac_poverilac>KECA INDUSTRIES</mt102:primalac_poverilac>
+        <mt102:datum_naloga>2015-04-19+02:00</mt102:datum_naloga>
+        <mt102:racun_duznika>123456789123456789</mt102:racun_duznika>
+        <mt102:model_zaduzenja>70</mt102:model_zaduzenja>
+        <mt102:poziv_na_broj_zaduzenja>77777777777777777777</mt102:poziv_na_broj_zaduzenja>
+        <mt102:racun_poverioca>123456789123456788</mt102:racun_poverioca>
+        <mt102:model_odobrenja>93</mt102:model_odobrenja>
+        <mt102:poziv_na_broj_odobrenja>99999999999999999999</mt102:poziv_na_broj_odobrenja>
+        <mt102:iznos>169.83</mt102:iznos>
+        <mt102:sifra_valute>123</mt102:sifra_valute>
+    </mt102:pojedinacni_nalozi>
+    <mt102:pojedinacni_nalozi>
+        <mt102:id_naloga_za_placanje>23:KECA</mt102:id_naloga_za_placanje>
+        <mt102:duznik_nalogodavac>MALOLETNICE INC</mt102:duznik_nalogodavac>
+        <mt102:svrha_placanja>ODSTETA</mt102:svrha_placanja>
+        <mt102:primalac_poverilac>KECA INDUSTRIES</mt102:primalac_poverilac>
+        <mt102:datum_naloga>2015-04-19+02:00</mt102:datum_naloga>
+        <mt102:racun_duznika>123456789123456789</mt102:racun_duznika>
+        <mt102:model_zaduzenja>70</mt102:model_zaduzenja>
+        <mt102:poziv_na_broj_zaduzenja>77777777777777777777</mt102:poziv_na_broj_zaduzenja>
+        <mt102:racun_poverioca>123456789123456788</mt102:racun_poverioca>
+        <mt102:model_odobrenja>93</mt102:model_odobrenja>
+        <mt102:poziv_na_broj_odobrenja>99999999999999999999</mt102:poziv_na_broj_odobrenja>
+        <mt102:iznos>169.83</mt102:iznos>
+        <mt102:sifra_valute>123</mt102:sifra_valute>
+    </mt102:pojedinacni_nalozi>
+    <mt102:pojedinacni_nalozi>
+        <mt102:id_naloga_za_placanje>24:KECA</mt102:id_naloga_za_placanje>
+        <mt102:duznik_nalogodavac>MALOLETNICE INC</mt102:duznik_nalogodavac>
+        <mt102:svrha_placanja>ODSTETA</mt102:svrha_placanja>
+        <mt102:primalac_poverilac>KECA INDUSTRIES</mt102:primalac_poverilac>
+        <mt102:datum_naloga>2015-04-19+02:00</mt102:datum_naloga>
+        <mt102:racun_duznika>123456789123456789</mt102:racun_duznika>
+        <mt102:model_zaduzenja>70</mt102:model_zaduzenja>
+        <mt102:poziv_na_broj_zaduzenja>77777777777777777777</mt102:poziv_na_broj_zaduzenja>
+        <mt102:racun_poverioca>123456789123456788</mt102:racun_poverioca>
+        <mt102:model_odobrenja>93</mt102:model_odobrenja>
+        <mt102:poziv_na_broj_odobrenja>99999999999999999999</mt102:poziv_na_broj_odobrenja>
+        <mt102:iznos>169.83</mt102:iznos>
+        <mt102:sifra_valute>123</mt102:sifra_valute>
+    </mt102:pojedinacni_nalozi>
+    <mt102:pojedinacni_nalozi>
+        <mt102:id_naloga_za_placanje>25:KECA</mt102:id_naloga_za_placanje>
+        <mt102:duznik_nalogodavac>MALOLETNICE INC</mt102:duznik_nalogodavac>
+        <mt102:svrha_placanja>ODSTETA</mt102:svrha_placanja>
+        <mt102:primalac_poverilac>KECA INDUSTRIES</mt102:primalac_poverilac>
+        <mt102:datum_naloga>2015-04-19+02:00</mt102:datum_naloga>
+        <mt102:racun_duznika>123456789123456789</mt102:racun_duznika>
+        <mt102:model_zaduzenja>70</mt102:model_zaduzenja>
+        <mt102:poziv_na_broj_zaduzenja>77777777777777777777</mt102:poziv_na_broj_zaduzenja>
+        <mt102:racun_poverioca>123456789123456788</mt102:racun_poverioca>
+        <mt102:model_odobrenja>93</mt102:model_odobrenja>
+        <mt102:poziv_na_broj_odobrenja>99999999999999999999</mt102:poziv_na_broj_odobrenja>
+        <mt102:iznos>169.83</mt102:iznos>
+        <mt102:sifra_valute>123</mt102:sifra_valute>
+    </mt102:pojedinacni_nalozi>
+    <mt102:pojedinacni_nalozi>
+        <mt102:id_naloga_za_placanje>26:KECA</mt102:id_naloga_za_placanje>
+        <mt102:duznik_nalogodavac>MALOLETNICE INC</mt102:duznik_nalogodavac>
+        <mt102:svrha_placanja>ODSTETA</mt102:svrha_placanja>
+        <mt102:primalac_poverilac>KECA INDUSTRIES</mt102:primalac_poverilac>
+        <mt102:datum_naloga>2015-04-19+02:00</mt102:datum_naloga>
+        <mt102:racun_duznika>123456789123456789</mt102:racun_duznika>
+        <mt102:model_zaduzenja>70</mt102:model_zaduzenja>
+        <mt102:poziv_na_broj_zaduzenja>77777777777777777777</mt102:poziv_na_broj_zaduzenja>
+        <mt102:racun_poverioca>123456789123456788</mt102:racun_poverioca>
+        <mt102:model_odobrenja>93</mt102:model_odobrenja>
+        <mt102:poziv_na_broj_odobrenja>99999999999999999999</mt102:poziv_na_broj_odobrenja>
+        <mt102:iznos>169.83</mt102:iznos>
+        <mt102:sifra_valute>123</mt102:sifra_valute>
+    </mt102:pojedinacni_nalozi>
+    <mt102:pojedinacni_nalozi>
+        <mt102:id_naloga_za_placanje>27:KECA</mt102:id_naloga_za_placanje>
+        <mt102:duznik_nalogodavac>MALOLETNICE INC</mt102:duznik_nalogodavac>
+        <mt102:svrha_placanja>ODSTETA</mt102:svrha_placanja>
+        <mt102:primalac_poverilac>KECA INDUSTRIES</mt102:primalac_poverilac>
+        <mt102:datum_naloga>2015-04-19+02:00</mt102:datum_naloga>
+        <mt102:racun_duznika>123456789123456789</mt102:racun_duznika>
+        <mt102:model_zaduzenja>70</mt102:model_zaduzenja>
+        <mt102:poziv_na_broj_zaduzenja>77777777777777777777</mt102:poziv_na_broj_zaduzenja>
+        <mt102:racun_poverioca>123456789123456788</mt102:racun_poverioca>
+        <mt102:model_odobrenja>93</mt102:model_odobrenja>
+        <mt102:poziv_na_broj_odobrenja>99999999999999999999</mt102:poziv_na_broj_odobrenja>
+        <mt102:iznos>169.83</mt102:iznos>
+        <mt102:sifra_valute>123</mt102:sifra_valute>
+    </mt102:pojedinacni_nalozi>
+    <mt102:pojedinacni_nalozi>
+        <mt102:id_naloga_za_placanje>28:KECA</mt102:id_naloga_za_placanje>
+        <mt102:duznik_nalogodavac>MALOLETNICE INC</mt102:duznik_nalogodavac>
+        <mt102:svrha_placanja>ODSTETA</mt102:svrha_placanja>
+        <mt102:primalac_poverilac>KECA INDUSTRIES</mt102:primalac_poverilac>
+        <mt102:datum_naloga>2015-04-19+02:00</mt102:datum_naloga>
+        <mt102:racun_duznika>123456789123456789</mt102:racun_duznika>
+        <mt102:model_zaduzenja>70</mt102:model_zaduzenja>
+        <mt102:poziv_na_broj_zaduzenja>77777777777777777777</mt102:poziv_na_broj_zaduzenja>
+        <mt102:racun_poverioca>123456789123456788</mt102:racun_poverioca>
+        <mt102:model_odobrenja>93</mt102:model_odobrenja>
+        <mt102:poziv_na_broj_odobrenja>99999999999999999999</mt102:poziv_na_broj_odobrenja>
+        <mt102:iznos>169.83</mt102:iznos>
+        <mt102:sifra_valute>123</mt102:sifra_valute>
+    </mt102:pojedinacni_nalozi>
+    <mt102:pojedinacni_nalozi>
+        <mt102:id_naloga_za_placanje>29:KECA</mt102:id_naloga_za_placanje>
+        <mt102:duznik_nalogodavac>MALOLETNICE INC</mt102:duznik_nalogodavac>
+        <mt102:svrha_placanja>ODSTETA</mt102:svrha_placanja>
+        <mt102:primalac_poverilac>KECA INDUSTRIES</mt102:primalac_poverilac>
+        <mt102:datum_naloga>2015-04-19+02:00</mt102:datum_naloga>
+        <mt102:racun_duznika>123456789123456789</mt102:racun_duznika>
+        <mt102:model_zaduzenja>70</mt102:model_zaduzenja>
+        <mt102:poziv_na_broj_zaduzenja>77777777777777777777</mt102:poziv_na_broj_zaduzenja>
+        <mt102:racun_poverioca>123456789123456788</mt102:racun_poverioca>
+        <mt102:model_odobrenja>93</mt102:model_odobrenja>
+        <mt102:poziv_na_broj_odobrenja>99999999999999999999</mt102:poziv_na_broj_odobrenja>
+        <mt102:iznos>169.83</mt102:iznos>
+        <mt102:sifra_valute>123</mt102:sifra_valute>
+    </mt102:pojedinacni_nalozi>
+    <mt102:pojedinacni_nalozi>
+        <mt102:id_naloga_za_placanje>30:KECA</mt102:id_naloga_za_placanje>
+        <mt102:duznik_nalogodavac>MALOLETNICE INC</mt102:duznik_nalogodavac>
+        <mt102:svrha_placanja>ODSTETA</mt102:svrha_placanja>
+        <mt102:primalac_poverilac>KECA INDUSTRIES</mt102:primalac_poverilac>
+        <mt102:datum_naloga>2015-04-19+02:00</mt102:datum_naloga>
+        <mt102:racun_duznika>123456789123456789</mt102:racun_duznika>
+        <mt102:model_zaduzenja>70</mt102:model_zaduzenja>
+        <mt102:poziv_na_broj_zaduzenja>77777777777777777777</mt102:poziv_na_broj_zaduzenja>
+        <mt102:racun_poverioca>123456789123456788</mt102:racun_poverioca>
+        <mt102:model_odobrenja>93</mt102:model_odobrenja>
+        <mt102:poziv_na_broj_odobrenja>99999999999999999999</mt102:poziv_na_broj_odobrenja>
+        <mt102:iznos>169.83</mt102:iznos>
+        <mt102:sifra_valute>123</mt102:sifra_valute>
+    </mt102:pojedinacni_nalozi>
+    <mt102:pojedinacni_nalozi>
+        <mt102:id_naloga_za_placanje>31:KECA</mt102:id_naloga_za_placanje>
+        <mt102:duznik_nalogodavac>MALOLETNICE INC</mt102:duznik_nalogodavac>
+        <mt102:svrha_placanja>ODSTETA</mt102:svrha_placanja>
+        <mt102:primalac_poverilac>KECA INDUSTRIES</mt102:primalac_poverilac>
+        <mt102:datum_naloga>2015-04-19+02:00</mt102:datum_naloga>
+        <mt102:racun_duznika>123456789123456789</mt102:racun_duznika>
+        <mt102:model_zaduzenja>70</mt102:model_zaduzenja>
+        <mt102:poziv_na_broj_zaduzenja>77777777777777777777</mt102:poziv_na_broj_zaduzenja>
+        <mt102:racun_poverioca>123456789123456788</mt102:racun_poverioca>
+        <mt102:model_odobrenja>93</mt102:model_odobrenja>
+        <mt102:poziv_na_broj_odobrenja>99999999999999999999</mt102:poziv_na_broj_odobrenja>
+        <mt102:iznos>169.83</mt102:iznos>
+        <mt102:sifra_valute>123</mt102:sifra_valute>
+    </mt102:pojedinacni_nalozi>
+    <mt102:pojedinacni_nalozi>
+        <mt102:id_naloga_za_placanje>32:KECA</mt102:id_naloga_za_placanje>
+        <mt102:duznik_nalogodavac>MALOLETNICE INC</mt102:duznik_nalogodavac>
+        <mt102:svrha_placanja>ODSTETA</mt102:svrha_placanja>
+        <mt102:primalac_poverilac>KECA INDUSTRIES</mt102:primalac_poverilac>
+        <mt102:datum_naloga>2015-04-19+02:00</mt102:datum_naloga>
+        <mt102:racun_duznika>123456789123456789</mt102:racun_duznika>
+        <mt102:model_zaduzenja>70</mt102:model_zaduzenja>
+        <mt102:poziv_na_broj_zaduzenja>77777777777777777777</mt102:poziv_na_broj_zaduzenja>
+        <mt102:racun_poverioca>123456789123456788</mt102:racun_poverioca>
+        <mt102:model_odobrenja>93</mt102:model_odobrenja>
+        <mt102:poziv_na_broj_odobrenja>99999999999999999999</mt102:poziv_na_broj_odobrenja>
+        <mt102:iznos>169.83</mt102:iznos>
+        <mt102:sifra_valute>123</mt102:sifra_valute>
+    </mt102:pojedinacni_nalozi>
+    <mt102:pojedinacni_nalozi>
+        <mt102:id_naloga_za_placanje>33:KECA</mt102:id_naloga_za_placanje>
+        <mt102:duznik_nalogodavac>MALOLETNICE INC</mt102:duznik_nalogodavac>
+        <mt102:svrha_placanja>ODSTETA</mt102:svrha_placanja>
+        <mt102:primalac_poverilac>KECA INDUSTRIES</mt102:primalac_poverilac>
+        <mt102:datum_naloga>2015-04-19+02:00</mt102:datum_naloga>
+        <mt102:racun_duznika>123456789123456789</mt102:racun_duznika>
+        <mt102:model_zaduzenja>70</mt102:model_zaduzenja>
+        <mt102:poziv_na_broj_zaduzenja>77777777777777777777</mt102:poziv_na_broj_zaduzenja>
+        <mt102:racun_poverioca>123456789123456788</mt102:racun_poverioca>
+        <mt102:model_odobrenja>93</mt102:model_odobrenja>
+        <mt102:poziv_na_broj_odobrenja>99999999999999999999</mt102:poziv_na_broj_odobrenja>
+        <mt102:iznos>169.83</mt102:iznos>
+        <mt102:sifra_valute>123</mt102:sifra_valute>
+    </mt102:pojedinacni_nalozi>
+    <mt102:pojedinacni_nalozi>
+        <mt102:id_naloga_za_placanje>34:KECA</mt102:id_naloga_za_placanje>
+        <mt102:duznik_nalogodavac>MALOLETNICE INC</mt102:duznik_nalogodavac>
+        <mt102:svrha_placanja>ODSTETA</mt102:svrha_placanja>
+        <mt102:primalac_poverilac>KECA INDUSTRIES</mt102:primalac_poverilac>
+        <mt102:datum_naloga>2015-04-19+02:00</mt102:datum_naloga>
+        <mt102:racun_duznika>123456789123456789</mt102:racun_duznika>
+        <mt102:model_zaduzenja>70</mt102:model_zaduzenja>
+        <mt102:poziv_na_broj_zaduzenja>77777777777777777777</mt102:poziv_na_broj_zaduzenja>
+        <mt102:racun_poverioca>123456789123456788</mt102:racun_poverioca>
+        <mt102:model_odobrenja>93</mt102:model_odobrenja>
+        <mt102:poziv_na_broj_odobrenja>99999999999999999999</mt102:poziv_na_broj_odobrenja>
+        <mt102:iznos>169.83</mt102:iznos>
+        <mt102:sifra_valute>123</mt102:sifra_valute>
+    </mt102:pojedinacni_nalozi>
+    <mt102:pojedinacni_nalozi>
+        <mt102:id_naloga_za_placanje>35:KECA</mt102:id_naloga_za_placanje>
+        <mt102:duznik_nalogodavac>MALOLETNICE INC</mt102:duznik_nalogodavac>
+        <mt102:svrha_placanja>ODSTETA</mt102:svrha_placanja>
+        <mt102:primalac_poverilac>KECA INDUSTRIES</mt102:primalac_poverilac>
+        <mt102:datum_naloga>2015-04-19+02:00</mt102:datum_naloga>
+        <mt102:racun_duznika>123456789123456789</mt102:racun_duznika>
+        <mt102:model_zaduzenja>70</mt102:model_zaduzenja>
+        <mt102:poziv_na_broj_zaduzenja>77777777777777777777</mt102:poziv_na_broj_zaduzenja>
+        <mt102:racun_poverioca>123456789123456788</mt102:racun_poverioca>
+        <mt102:model_odobrenja>93</mt102:model_odobrenja>
+        <mt102:poziv_na_broj_odobrenja>99999999999999999999</mt102:poziv_na_broj_odobrenja>
+        <mt102:iznos>169.83</mt102:iznos>
+        <mt102:sifra_valute>123</mt102:sifra_valute>
+    </mt102:pojedinacni_nalozi>
+    <mt102:pojedinacni_nalozi>
+        <mt102:id_naloga_za_placanje>36:KECA</mt102:id_naloga_za_placanje>
+        <mt102:duznik_nalogodavac>MALOLETNICE INC</mt102:duznik_nalogodavac>
+        <mt102:svrha_placanja>ODSTETA</mt102:svrha_placanja>
+        <mt102:primalac_poverilac>KECA INDUSTRIES</mt102:primalac_poverilac>
+        <mt102:datum_naloga>2015-04-19+02:00</mt102:datum_naloga>
+        <mt102:racun_duznika>123456789123456789</mt102:racun_duznika>
+        <mt102:model_zaduzenja>70</mt102:model_zaduzenja>
+        <mt102:poziv_na_broj_zaduzenja>77777777777777777777</mt102:poziv_na_broj_zaduzenja>
+        <mt102:racun_poverioca>123456789123456788</mt102:racun_poverioca>
+        <mt102:model_odobrenja>93</mt102:model_odobrenja>
+        <mt102:poziv_na_broj_odobrenja>99999999999999999999</mt102:poziv_na_broj_odobrenja>
+        <mt102:iznos>169.83</mt102:iznos>
+        <mt102:sifra_valute>123</mt102:sifra_valute>
+    </mt102:pojedinacni_nalozi>
+    <mt102:pojedinacni_nalozi>
+        <mt102:id_naloga_za_placanje>37:KECA</mt102:id_naloga_za_placanje>
+        <mt102:duznik_nalogodavac>MALOLETNICE INC</mt102:duznik_nalogodavac>
+        <mt102:svrha_placanja>ODSTETA</mt102:svrha_placanja>
+        <mt102:primalac_poverilac>KECA INDUSTRIES</mt102:primalac_poverilac>
+        <mt102:datum_naloga>2015-04-19+02:00</mt102:datum_naloga>
+        <mt102:racun_duznika>123456789123456789</mt102:racun_duznika>
+        <mt102:model_zaduzenja>70</mt102:model_zaduzenja>
+        <mt102:poziv_na_broj_zaduzenja>77777777777777777777</mt102:poziv_na_broj_zaduzenja>
+        <mt102:racun_poverioca>123456789123456788</mt102:racun_poverioca>
+        <mt102:model_odobrenja>93</mt102:model_odobrenja>
+        <mt102:poziv_na_broj_odobrenja>99999999999999999999</mt102:poziv_na_broj_odobrenja>
+        <mt102:iznos>169.83</mt102:iznos>
+        <mt102:sifra_valute>123</mt102:sifra_valute>
+    </mt102:pojedinacni_nalozi>
+    <mt102:pojedinacni_nalozi>
+        <mt102:id_naloga_za_placanje>38:KECA</mt102:id_naloga_za_placanje>
+        <mt102:duznik_nalogodavac>MALOLETNICE INC</mt102:duznik_nalogodavac>
+        <mt102:svrha_placanja>ODSTETA</mt102:svrha_placanja>
+        <mt102:primalac_poverilac>KECA INDUSTRIES</mt102:primalac_poverilac>
+        <mt102:datum_naloga>2015-04-19+02:00</mt102:datum_naloga>
+        <mt102:racun_duznika>123456789123456789</mt102:racun_duznika>
+        <mt102:model_zaduzenja>70</mt102:model_zaduzenja>
+        <mt102:poziv_na_broj_zaduzenja>77777777777777777777</mt102:poziv_na_broj_zaduzenja>
+        <mt102:racun_poverioca>123456789123456788</mt102:racun_poverioca>
+        <mt102:model_odobrenja>93</mt102:model_odobrenja>
+        <mt102:poziv_na_broj_odobrenja>99999999999999999999</mt102:poziv_na_broj_odobrenja>
+        <mt102:iznos>169.83</mt102:iznos>
+        <mt102:sifra_valute>123</mt102:sifra_valute>
+    </mt102:pojedinacni_nalozi>
+    <mt102:pojedinacni_nalozi>
+        <mt102:id_naloga_za_placanje>39:KECA</mt102:id_naloga_za_placanje>
+        <mt102:duznik_nalogodavac>MALOLETNICE INC</mt102:duznik_nalogodavac>
+        <mt102:svrha_placanja>ODSTETA</mt102:svrha_placanja>
+        <mt102:primalac_poverilac>KECA INDUSTRIES</mt102:primalac_poverilac>
+        <mt102:datum_naloga>2015-04-19+02:00</mt102:datum_naloga>
+        <mt102:racun_duznika>123456789123456789</mt102:racun_duznika>
+        <mt102:model_zaduzenja>70</mt102:model_zaduzenja>
+        <mt102:poziv_na_broj_zaduzenja>77777777777777777777</mt102:poziv_na_broj_zaduzenja>
+        <mt102:racun_poverioca>123456789123456788</mt102:racun_poverioca>
+        <mt102:model_odobrenja>93</mt102:model_odobrenja>
+        <mt102:poziv_na_broj_odobrenja>99999999999999999999</mt102:poziv_na_broj_odobrenja>
+        <mt102:iznos>169.83</mt102:iznos>
+        <mt102:sifra_valute>123</mt102:sifra_valute>
+    </mt102:pojedinacni_nalozi>
+    <mt102:pojedinacni_nalozi>
+        <mt102:id_naloga_za_placanje>40:KECA</mt102:id_naloga_za_placanje>
+        <mt102:duznik_nalogodavac>MALOLETNICE INC</mt102:duznik_nalogodavac>
+        <mt102:svrha_placanja>ODSTETA</mt102:svrha_placanja>
+        <mt102:primalac_poverilac>KECA INDUSTRIES</mt102:primalac_poverilac>
+        <mt102:datum_naloga>2015-04-19+02:00</mt102:datum_naloga>
+        <mt102:racun_duznika>123456789123456789</mt102:racun_duznika>
+        <mt102:model_zaduzenja>70</mt102:model_zaduzenja>
+        <mt102:poziv_na_broj_zaduzenja>77777777777777777777</mt102:poziv_na_broj_zaduzenja>
+        <mt102:racun_poverioca>123456789123456788</mt102:racun_poverioca>
+        <mt102:model_odobrenja>93</mt102:model_odobrenja>
+        <mt102:poziv_na_broj_odobrenja>99999999999999999999</mt102:poziv_na_broj_odobrenja>
+        <mt102:iznos>169.83</mt102:iznos>
+        <mt102:sifra_valute>123</mt102:sifra_valute>
+    </mt102:pojedinacni_nalozi>
+    <mt102:pojedinacni_nalozi>
+        <mt102:id_naloga_za_placanje>41:KECA</mt102:id_naloga_za_placanje>
+        <mt102:duznik_nalogodavac>MALOLETNICE INC</mt102:duznik_nalogodavac>
+        <mt102:svrha_placanja>ODSTETA</mt102:svrha_placanja>
+        <mt102:primalac_poverilac>KECA INDUSTRIES</mt102:primalac_poverilac>
+        <mt102:datum_naloga>2015-04-19+02:00</mt102:datum_naloga>
+        <mt102:racun_duznika>123456789123456789</mt102:racun_duznika>
+        <mt102:model_zaduzenja>70</mt102:model_zaduzenja>
+        <mt102:poziv_na_broj_zaduzenja>77777777777777777777</mt102:poziv_na_broj_zaduzenja>
+        <mt102:racun_poverioca>123456789123456788</mt102:racun_poverioca>
+        <mt102:model_odobrenja>93</mt102:model_odobrenja>
+        <mt102:poziv_na_broj_odobrenja>99999999999999999999</mt102:poziv_na_broj_odobrenja>
+        <mt102:iznos>169.83</mt102:iznos>
+        <mt102:sifra_valute>123</mt102:sifra_valute>
+    </mt102:pojedinacni_nalozi>
+    <mt102:pojedinacni_nalozi>
+        <mt102:id_naloga_za_placanje>42:KECA</mt102:id_naloga_za_placanje>
+        <mt102:duznik_nalogodavac>MALOLETNICE INC</mt102:duznik_nalogodavac>
+        <mt102:svrha_placanja>ODSTETA</mt102:svrha_placanja>
+        <mt102:primalac_poverilac>KECA INDUSTRIES</mt102:primalac_poverilac>
+        <mt102:datum_naloga>2015-04-19+02:00</mt102:datum_naloga>
+        <mt102:racun_duznika>123456789123456789</mt102:racun_duznika>
+        <mt102:model_zaduzenja>70</mt102:model_zaduzenja>
+        <mt102:poziv_na_broj_zaduzenja>77777777777777777777</mt102:poziv_na_broj_zaduzenja>
+        <mt102:racun_poverioca>123456789123456788</mt102:racun_poverioca>
+        <mt102:model_odobrenja>93</mt102:model_odobrenja>
+        <mt102:poziv_na_broj_odobrenja>99999999999999999999</mt102:poziv_na_broj_odobrenja>
+        <mt102:iznos>169.83</mt102:iznos>
+        <mt102:sifra_valute>123</mt102:sifra_valute>
+    </mt102:pojedinacni_nalozi>
+    <mt102:pojedinacni_nalozi>
+        <mt102:id_naloga_za_placanje>43:KECA</mt102:id_naloga_za_placanje>
+        <mt102:duznik_nalogodavac>MALOLETNICE INC</mt102:duznik_nalogodavac>
+        <mt102:svrha_placanja>ODSTETA</mt102:svrha_placanja>
+        <mt102:primalac_poverilac>KECA INDUSTRIES</mt102:primalac_poverilac>
+        <mt102:datum_naloga>2015-04-19+02:00</mt102:datum_naloga>
+        <mt102:racun_duznika>123456789123456789</mt102:racun_duznika>
+        <mt102:model_zaduzenja>70</mt102:model_zaduzenja>
+        <mt102:poziv_na_broj_zaduzenja>77777777777777777777</mt102:poziv_na_broj_zaduzenja>
+        <mt102:racun_poverioca>123456789123456788</mt102:racun_poverioca>
+        <mt102:model_odobrenja>93</mt102:model_odobrenja>
+        <mt102:poziv_na_broj_odobrenja>99999999999999999999</mt102:poziv_na_broj_odobrenja>
+        <mt102:iznos>169.83</mt102:iznos>
+        <mt102:sifra_valute>123</mt102:sifra_valute>
+    </mt102:pojedinacni_nalozi>
+    <mt102:pojedinacni_nalozi>
+        <mt102:id_naloga_za_placanje>44:KECA</mt102:id_naloga_za_placanje>
+        <mt102:duznik_nalogodavac>MALOLETNICE INC</mt102:duznik_nalogodavac>
+        <mt102:svrha_placanja>ODSTETA</mt102:svrha_placanja>
+        <mt102:primalac_poverilac>KECA INDUSTRIES</mt102:primalac_poverilac>
+        <mt102:datum_naloga>2015-04-19+02:00</mt102:datum_naloga>
+        <mt102:racun_duznika>123456789123456789</mt102:racun_duznika>
+        <mt102:model_zaduzenja>70</mt102:model_zaduzenja>
+        <mt102:poziv_na_broj_zaduzenja>77777777777777777777</mt102:poziv_na_broj_zaduzenja>
+        <mt102:racun_poverioca>123456789123456788</mt102:racun_poverioca>
+        <mt102:model_odobrenja>93</mt102:model_odobrenja>
+        <mt102:poziv_na_broj_odobrenja>99999999999999999999</mt102:poziv_na_broj_odobrenja>
+        <mt102:iznos>169.83</mt102:iznos>
+        <mt102:sifra_valute>123</mt102:sifra_valute>
+    </mt102:pojedinacni_nalozi>
+    <mt102:pojedinacni_nalozi>
+        <mt102:id_naloga_za_placanje>45:KECA</mt102:id_naloga_za_placanje>
+        <mt102:duznik_nalogodavac>MALOLETNICE INC</mt102:duznik_nalogodavac>
+        <mt102:svrha_placanja>ODSTETA</mt102:svrha_placanja>
+        <mt102:primalac_poverilac>KECA INDUSTRIES</mt102:primalac_poverilac>
+        <mt102:datum_naloga>2015-04-19+02:00</mt102:datum_naloga>
+        <mt102:racun_duznika>123456789123456789</mt102:racun_duznika>
+        <mt102:model_zaduzenja>70</mt102:model_zaduzenja>
+        <mt102:poziv_na_broj_zaduzenja>77777777777777777777</mt102:poziv_na_broj_zaduzenja>
+        <mt102:racun_poverioca>123456789123456788</mt102:racun_poverioca>
+        <mt102:model_odobrenja>93</mt102:model_odobrenja>
+        <mt102:poziv_na_broj_odobrenja>99999999999999999999</mt102:poziv_na_broj_odobrenja>
+        <mt102:iznos>169.83</mt102:iznos>
+        <mt102:sifra_valute>123</mt102:sifra_valute>
+    </mt102:pojedinacni_nalozi>
+    <mt102:pojedinacni_nalozi>
+        <mt102:id_naloga_za_placanje>46:KECA</mt102:id_naloga_za_placanje>
+        <mt102:duznik_nalogodavac>MALOLETNICE INC</mt102:duznik_nalogodavac>
+        <mt102:svrha_placanja>ODSTETA</mt102:svrha_placanja>
+        <mt102:primalac_poverilac>KECA INDUSTRIES</mt102:primalac_poverilac>
+        <mt102:datum_naloga>2015-04-19+02:00</mt102:datum_naloga>
+        <mt102:racun_duznika>123456789123456789</mt102:racun_duznika>
+        <mt102:model_zaduzenja>70</mt102:model_zaduzenja>
+        <mt102:poziv_na_broj_zaduzenja>77777777777777777777</mt102:poziv_na_broj_zaduzenja>
+        <mt102:racun_poverioca>123456789123456788</mt102:racun_poverioca>
+        <mt102:model_odobrenja>93</mt102:model_odobrenja>
+        <mt102:poziv_na_broj_odobrenja>99999999999999999999</mt102:poziv_na_broj_odobrenja>
+        <mt102:iznos>169.83</mt102:iznos>
+        <mt102:sifra_valute>123</mt102:sifra_valute>
+    </mt102:pojedinacni_nalozi>
+    <mt102:pojedinacni_nalozi>
+        <mt102:id_naloga_za_placanje>47:KECA</mt102:id_naloga_za_placanje>
+        <mt102:duznik_nalogodavac>MALOLETNICE INC</mt102:duznik_nalogodavac>
+        <mt102:svrha_placanja>ODSTETA</mt102:svrha_placanja>
+        <mt102:primalac_poverilac>KECA INDUSTRIES</mt102:primalac_poverilac>
+        <mt102:datum_naloga>2015-04-19+02:00</mt102:datum_naloga>
+        <mt102:racun_duznika>123456789123456789</mt102:racun_duznika>
+        <mt102:model_zaduzenja>70</mt102:model_zaduzenja>
+        <mt102:poziv_na_broj_zaduzenja>77777777777777777777</mt102:poziv_na_broj_zaduzenja>
+        <mt102:racun_poverioca>123456789123456788</mt102:racun_poverioca>
+        <mt102:model_odobrenja>93</mt102:model_odobrenja>
+        <mt102:poziv_na_broj_odobrenja>99999999999999999999</mt102:poziv_na_broj_odobrenja>
+        <mt102:iznos>169.83</mt102:iznos>
+        <mt102:sifra_valute>123</mt102:sifra_valute>
+    </mt102:pojedinacni_nalozi>
+    <mt102:pojedinacni_nalozi>
+        <mt102:id_naloga_za_placanje>48:KECA</mt102:id_naloga_za_placanje>
+        <mt102:duznik_nalogodavac>MALOLETNICE INC</mt102:duznik_nalogodavac>
+        <mt102:svrha_placanja>ODSTETA</mt102:svrha_placanja>
+        <mt102:primalac_poverilac>KECA INDUSTRIES</mt102:primalac_poverilac>
+        <mt102:datum_naloga>2015-04-19+02:00</mt102:datum_naloga>
+        <mt102:racun_duznika>123456789123456789</mt102:racun_duznika>
+        <mt102:model_zaduzenja>70</mt102:model_zaduzenja>
+        <mt102:poziv_na_broj_zaduzenja>77777777777777777777</mt102:poziv_na_broj_zaduzenja>
+        <mt102:racun_poverioca>123456789123456788</mt102:racun_poverioca>
+        <mt102:model_odobrenja>93</mt102:model_odobrenja>
+        <mt102:poziv_na_broj_odobrenja>99999999999999999999</mt102:poziv_na_broj_odobrenja>
+        <mt102:iznos>169.83</mt102:iznos>
+        <mt102:sifra_valute>123</mt102:sifra_valute>
+    </mt102:pojedinacni_nalozi>
+    <mt102:pojedinacni_nalozi>
+        <mt102:id_naloga_za_placanje>49:KECA</mt102:id_naloga_za_placanje>
+        <mt102:duznik_nalogodavac>MALOLETNICE INC</mt102:duznik_nalogodavac>
+        <mt102:svrha_placanja>ODSTETA</mt102:svrha_placanja>
+        <mt102:primalac_poverilac>KECA INDUSTRIES</mt102:primalac_poverilac>
+        <mt102:datum_naloga>2015-04-19+02:00</mt102:datum_naloga>
+        <mt102:racun_duznika>123456789123456789</mt102:racun_duznika>
+        <mt102:model_zaduzenja>70</mt102:model_zaduzenja>
+        <mt102:poziv_na_broj_zaduzenja>77777777777777777777</mt102:poziv_na_broj_zaduzenja>
+        <mt102:racun_poverioca>123456789123456788</mt102:racun_poverioca>
+        <mt102:model_odobrenja>93</mt102:model_odobrenja>
+        <mt102:poziv_na_broj_odobrenja>99999999999999999999</mt102:poziv_na_broj_odobrenja>
+        <mt102:iznos>169.83</mt102:iznos>
+        <mt102:sifra_valute>123</mt102:sifra_valute>
+    </mt102:pojedinacni_nalozi>
+    <mt102:pojedinacni_nalozi>
+        <mt102:id_naloga_za_placanje>50:KECA</mt102:id_naloga_za_placanje>
+        <mt102:duznik_nalogodavac>MALOLETNICE INC</mt102:duznik_nalogodavac>
+        <mt102:svrha_placanja>ODSTETA</mt102:svrha_placanja>
+        <mt102:primalac_poverilac>KECA INDUSTRIES</mt102:primalac_poverilac>
+        <mt102:datum_naloga>2015-04-19+02:00</mt102:datum_naloga>
+        <mt102:racun_duznika>123456789123456789</mt102:racun_duznika>
+        <mt102:model_zaduzenja>70</mt102:model_zaduzenja>
+        <mt102:poziv_na_broj_zaduzenja>77777777777777777777</mt102:poziv_na_broj_zaduzenja>
+        <mt102:racun_poverioca>123456789123456788</mt102:racun_poverioca>
+        <mt102:model_odobrenja>93</mt102:model_odobrenja>
+        <mt102:poziv_na_broj_odobrenja>99999999999999999999</mt102:poziv_na_broj_odobrenja>
+        <mt102:iznos>169.83</mt102:iznos>
+        <mt102:sifra_valute>123</mt102:sifra_valute>
+    </mt102:pojedinacni_nalozi>
+    <mt102:pojedinacni_nalozi>
+        <mt102:id_naloga_za_placanje>51:KECA</mt102:id_naloga_za_placanje>
+        <mt102:duznik_nalogodavac>MALOLETNICE INC</mt102:duznik_nalogodavac>
+        <mt102:svrha_placanja>ODSTETA</mt102:svrha_placanja>
+        <mt102:primalac_poverilac>KECA INDUSTRIES</mt102:primalac_poverilac>
+        <mt102:datum_naloga>2015-04-19+02:00</mt102:datum_naloga>
+        <mt102:racun_duznika>123456789123456789</mt102:racun_duznika>
+        <mt102:model_zaduzenja>70</mt102:model_zaduzenja>
+        <mt102:poziv_na_broj_zaduzenja>77777777777777777777</mt102:poziv_na_broj_zaduzenja>
+        <mt102:racun_poverioca>123456789123456788</mt102:racun_poverioca>
+        <mt102:model_odobrenja>93</mt102:model_odobrenja>
+        <mt102:poziv_na_broj_odobrenja>99999999999999999999</mt102:poziv_na_broj_odobrenja>
+        <mt102:iznos>169.83</mt102:iznos>
+        <mt102:sifra_valute>123</mt102:sifra_valute>
+    </mt102:pojedinacni_nalozi>
+    <mt102:pojedinacni_nalozi>
+        <mt102:id_naloga_za_placanje>52:KECA</mt102:id_naloga_za_placanje>
+        <mt102:duznik_nalogodavac>MALOLETNICE INC</mt102:duznik_nalogodavac>
+        <mt102:svrha_placanja>ODSTETA</mt102:svrha_placanja>
+        <mt102:primalac_poverilac>KECA INDUSTRIES</mt102:primalac_poverilac>
+        <mt102:datum_naloga>2015-04-19+02:00</mt102:datum_naloga>
+        <mt102:racun_duznika>123456789123456789</mt102:racun_duznika>
+        <mt102:model_zaduzenja>70</mt102:model_zaduzenja>
+        <mt102:poziv_na_broj_zaduzenja>77777777777777777777</mt102:poziv_na_broj_zaduzenja>
+        <mt102:racun_poverioca>123456789123456788</mt102:racun_poverioca>
+        <mt102:model_odobrenja>93</mt102:model_odobrenja>
+        <mt102:poziv_na_broj_odobrenja>99999999999999999999</mt102:poziv_na_broj_odobrenja>
+        <mt102:iznos>169.83</mt102:iznos>
+        <mt102:sifra_valute>123</mt102:sifra_valute>
+    </mt102:pojedinacni_nalozi>
+</mt102:mt102>

@@ -25,7 +25,7 @@ import util.converter.GenericXWSUnmarshaller;
 
 import com.xmldb.rest.RESTUtil;
 
-import facades.DBReaderFacade;
+import facades.DatabaseReader;
 import facades.IdGeneratorFacade;
 
 public class DBReaderFacadeTest {
@@ -51,7 +51,7 @@ public class DBReaderFacadeTest {
 
 	//@Test
 	public void testRead() {
-		DBReaderFacade<Mt103> mt103Reader = new DBReaderFacade<Mt103>(new Mt103(), "mt103.xml", "101");
+		DatabaseReader<Mt103> mt103Reader = new DatabaseReader<Mt103>(new Mt103(), "mt103.xml", "101");
 		try {
 			Mt103 mt103 = mt103Reader.read();
 			System.out.println(mt103.getIdPoruke());
@@ -61,23 +61,30 @@ public class DBReaderFacadeTest {
 		}
 	}
 	
-	//@Test
+	@Test
 	public void testRead4() {
 		
 		try {
 			GenericXWSMarshaller<ZahtevZaIzvod> gxm = new GenericXWSMarshaller<ZahtevZaIzvod>(ziz, new FileOutputStream(new File("ziz.xml")));
 			GenericXWSUnmarshaller<ZahtevZaIzvod> gum = new GenericXWSUnmarshaller<ZahtevZaIzvod>(ziz, new FileInputStream("ziz.xml"));
-		
+			
 			try {
 				gxm.marshall();
-			} catch (JAXBException | SAXException e) {
+			} catch (JAXBException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (SAXException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
+
 			ZahtevZaIzvod novi = null;
 			try {
 				novi = gum.unmarshall();
-			} catch (JAXBException | SAXException e) {
+			} catch (JAXBException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (SAXException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
@@ -95,7 +102,7 @@ public class DBReaderFacadeTest {
 	//@Test
 	public void pass() {
 		IdGeneratorFacade igf = new IdGeneratorFacade(ziz);
-		System.out.println(igf.generateIdXws());
+		System.out.println(igf.findIdXWS());
 		//DBWriterFacade<ZahtevZaIzvod> zizW = new DBWriterFacade<ZahtevZaIzvod>(ziz);
 	}
 	
@@ -118,12 +125,12 @@ public class DBReaderFacadeTest {
 		}
 	}
 	
-	@Test
+	//@Test
 	public void testRead3() {
 		
 		//DBWriterFacade<ZahtevZaIzvod> zizW = new DBWriterFacade<ZahtevZaIzvod>(ziz);
 		
-		DBReaderFacade<ZahtevZaIzvod> zizR = new DBReaderFacade<ZahtevZaIzvod>(new ZahtevZaIzvod(), "zahtev_za_izvod", "111");
+		DatabaseReader<ZahtevZaIzvod> zizR = new DatabaseReader<ZahtevZaIzvod>(new ZahtevZaIzvod(), "zahtev_za_izvod", "111");
 	
 		try {
 			//System.err.println("Writing: ");
@@ -140,7 +147,7 @@ public class DBReaderFacadeTest {
 	
 	//@Test
 	public void testRead2() {
-		DBReaderFacade<Faktura> fktReader = new DBReaderFacade<Faktura>(new Faktura(), "faktura.xml", "j");
+		DatabaseReader<Faktura> fktReader = new DatabaseReader<Faktura>(new Faktura(), "faktura.xml", "j");
 		try {
 			fktReader.read();
 		} catch (Exception e) {
